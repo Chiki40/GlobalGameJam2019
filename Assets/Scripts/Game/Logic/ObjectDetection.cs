@@ -6,7 +6,9 @@ public class ObjectDetection : MonoBehaviour
 {
     private GameObject m_CurrentDetectableObject = null;
     private Camera m_Camera = null;
+    private GameObject m_GameFlores = null;
     private float m_fCurrentTimeLookingAtObject = 0.0f;
+    private bool m_bObjectDetected = false;
 
     public float fAngleOffset = 8.0f;
     public float fTimeLookingAtObject = 3.0f;
@@ -15,10 +17,18 @@ public class ObjectDetection : MonoBehaviour
     void Start()
     {
         m_fCurrentTimeLookingAtObject = 0.0f;
+        m_bObjectDetected = false;
         m_Camera = transform.GetComponentInChildren<Camera>();
         if (!m_Camera)
         {
             Debug.LogError("[ObjectDetection.Start] ERROR. Camera not found in entity " + gameObject.name);
+            return;
+        }
+
+        m_GameFlores = GameObject.FindGameObjectWithTag("GameFlores");
+        if (!m_GameFlores)
+        {
+            Debug.LogError("[ObjectDetection.Start] ERROR. GameFlores not found in scene");
             return;
         }
     }
@@ -26,34 +36,43 @@ public class ObjectDetection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_Camera)
+        if (!m_bObjectDetected)
         {
-            if (m_CurrentDetectableObject)
+            bool bFocusing = false;
+            if (m_Camera)
             {
-                Vector3 targetDir = m_CurrentDetectableObject.transform.position - m_Camera.transform.position;
-                float angle = Vector3.Angle(targetDir, m_Camera.transform.forward);
-                if (angle <= fAngleOffset)
+                if (m_CurrentDetectableObject)
                 {
-                    m_fCurrentTimeLookingAtObject = Mathf.Min(m_fCurrentTimeLookingAtObject + Time.deltaTime, fTimeLookingAtObject);
-                    if (m_fCurrentTimeLookingAtObject >= fTimeLookingAtObject)
+                    Vector3 targetDir = m_CurrentDetectableObject.transform.position - m_Camera.transform.position;
+                    float angle = Vector3.Angle(targetDir, m_Camera.transform.forward);
+                    if (angle <= fAngleOffset)
                     {
-                        Debug.Log("Conseguido!\n");
-                        m_CurrentDetectableObject.transform.GetComponentInChildren<Collider>().enabled = false;
-                        m_CurrentDetectableObject = null;
+                        bFocusing = true;
+                        m_fCurrentTimeLookingAtObject = Mathf.Min(m_fCurrentTimeLookingAtObject + Time.deltaTime, fTimeLookingAtObject);
+                        if (m_fCurrentTimeLookingAtObject >= fTimeLookingAtObject)
+                        {
+                            Debug.Log("Conseguido!\n");
+                            m_bObjectDetected = true;
+                            m_CurrentDetectableObject.transform.GetComponentInChildren<Collider>().enabled = false;
+                            m_CurrentDetectableObject = null;
+                        }
+                        else
+                        {
+                            float progress = m_fCurrentTimeLookingAtObject / fTimeLookingAtObject;
+                            Debug.Log(progress);
+                            m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                            m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                        }
                     }
-                    else
-                    {
-                        Debug.Log(m_fCurrentTimeLookingAtObject + " / " + fTimeLookingAtObject);
-                    }
-                }
-                else // Not looking close enough to the object
-                {
-                    m_fCurrentTimeLookingAtObject = 0.0f;
                 }
             }
-            else // Not object to look at
+            if (!bFocusing)
             {
-                m_fCurrentTimeLookingAtObject = 0.0f;
+                m_fCurrentTimeLookingAtObject = Mathf.Max(m_fCurrentTimeLookingAtObject - Time.deltaTime, 0.0f);
+                float progress = m_fCurrentTimeLookingAtObject / fTimeLookingAtObject;
+                Debug.Log(progress);
+                m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
             }
         }
     }
