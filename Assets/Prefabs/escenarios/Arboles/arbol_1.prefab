@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2344900807749710377}
   - component: {fileID: 4504196544852352588}
   - component: {fileID: 6944342147927484679}
+  - component: {fileID: 2628215850440922781}
   m_Layer: 0
   m_Name: arbol_1
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &2628215850440922781
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958679300353587363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300040, guid: 9329761ffa5142a48ac12be954fb3ac1, type: 3}

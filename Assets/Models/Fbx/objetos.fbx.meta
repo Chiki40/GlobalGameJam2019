@@ -188,6 +188,38 @@ ModelImporter:
     4300058: caja_planta_individual
     4300060: caja_plantas
     4300062: toldo_2
+    6400000: arbol_1
+    6400002: arbol_2
+    6400004: arbol_3
+    6400006: arbol_4
+    6400008: arbol_5
+    6400010: arbol_6
+    6400012: arbusto_1
+    6400014: arbusto_2
+    6400016: barril
+    6400018: boca_incendios
+    6400020: caja_1
+    6400022: caja_planta_individual
+    6400024: caja_plantas
+    6400026: farola_1
+    6400028: farola_2
+    6400030: farolillo
+    6400032: flor_1
+    6400034: flor_2
+    6400036: puerta_1
+    6400038: puerta_2
+    6400040: puerta_3
+    6400042: puerta_4
+    6400044: puerta_5
+    6400046: toldo_1
+    6400048: toldo_2
+    6400050: ventana_1
+    6400052: ventana_2
+    6400054: ventana_3
+    6400056: ventana_4
+    6400058: ventana_5
+    6400060: ventana_6
+    6400062: ventana_7
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -222,7 +254,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 0.01
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
