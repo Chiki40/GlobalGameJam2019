@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     {
         UnityStandardAssets.Characters.FirstPerson.MouseLook mouseLook = new UnityStandardAssets.Characters.FirstPerson.MouseLook();
         mouseLook.SetCursorLock(false);
-        UtilSound.instance.StopAllSounds();
+        //UtilSound.instance.StopAllSounds();
         #if (!UNITY_STANDALONE_WIN && !UNITY_STANDALONE_OSX) || UNITY_EDITOR
             transform.Find("Background").Find("ButtonPanel").Find("Exit").GetComponent<Button>().interactable = false;
         #endif
