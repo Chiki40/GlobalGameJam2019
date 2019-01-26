@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c9f3344de7858545a071a15a8b2b081, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fDetectionAngleOffset: 8
+  fDetectionAngleOffset: 10
   fDetectionTimeLookingAtObject: 2
 --- !u!1 &7577652606645325694
 GameObject:

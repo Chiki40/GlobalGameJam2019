@@ -5025,11 +5025,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tienda
       objectReference: {fileID: 0}
-    - target: {fileID: 7577652606261864288, guid: a75959496db05444bb67e6012cb0366e,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 7577652606261864223, guid: a75959496db05444bb67e6012cb0366e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5084,21 +5079,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7577652606261864223, guid: a75959496db05444bb67e6012cb0366e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7577652606261864223, guid: a75959496db05444bb67e6012cb0366e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7577652606645325694, guid: a75959496db05444bb67e6012cb0366e,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a75959496db05444bb67e6012cb0366e, type: 3}
