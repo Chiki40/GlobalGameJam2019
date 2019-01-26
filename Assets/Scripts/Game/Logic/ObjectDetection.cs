@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Events;
 
 public class ObjectDetection : MonoBehaviour
 {
@@ -10,8 +9,6 @@ public class ObjectDetection : MonoBehaviour
     private GameManager m_GameManager = null;
     private float m_fCurrentTimeLookingAtObject = 0.0f;
     private bool m_bObjectDetected = false;
-
-    public UnityEvent eFinishEvent = null;
 
     // Start is called before the first frame update
     void Start()
@@ -86,7 +83,6 @@ public class ObjectDetection : MonoBehaviour
                                 m_CurrentDetectableObject.transform.GetComponentInChildren<Collider>().enabled = false;
                                 m_CurrentDetectableObject = null;
                                 GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
-                                eFinishEvent.Invoke();
                                 m_GameManager.ObjectEventCompleted();
                             }
                             else

@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour {
 
     public float []fTimeToGiveClues;
 
+    public UnityEvent eFinishEvent = null;
+    public UnityEvent eStartEvent = null;
     private bool m_bCluesDisabled = false;
     private float m_fCurrentTimeBetweenClues;
     private uint m_uCurrentClue;
@@ -16,7 +19,8 @@ public class GameManager : MonoBehaviour {
         m_bCluesDisabled = false;
         m_fCurrentTimeBetweenClues = 0.0f;
         m_uCurrentClue = 0u;
-	}
+        eStartEvent.Invoke();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -51,6 +55,7 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log("ObjectEventCompleted");
         m_bCluesDisabled = true; // Level completed, stop clues
+        eFinishEvent.Invoke();
     }
 
     public void Restart()
