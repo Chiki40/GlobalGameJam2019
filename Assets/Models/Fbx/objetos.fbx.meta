@@ -36,6 +36,7 @@ ModelImporter:
     100060: ventana_5
     100062: ventana_6
     100064: ventana_7
+    100066: props
     400000: arbol_1
     400002: arbol_2
     400004: arbol_3
@@ -69,6 +70,7 @@ ModelImporter:
     400060: ventana_5
     400062: ventana_6
     400064: ventana_7
+    400066: props
     2100000: azul_2
     2100002: marron_1
     2100004: marron_2
@@ -215,7 +217,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -229,7 +231,7 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    optimizeMeshForGPU: 0
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
@@ -249,7 +251,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

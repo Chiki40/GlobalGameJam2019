@@ -5,12 +5,15 @@ ModelImporter:
   fileIDToRecycleName:
     100000: CASA_2_alturas
     100002: //RootNode
+    100004: casas_base
     400000: CASA_2_alturas
     400002: //RootNode
+    400004: casas_base
     2100000: lambert1
     2300000: CASA_2_alturas
     3300000: CASA_2_alturas
     4300000: CASA_2_alturas
+    6400000: CASA_2_alturas
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -44,7 +47,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
