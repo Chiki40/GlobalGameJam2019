@@ -30,15 +30,15 @@ public class GameManager : MonoBehaviour {
         m_bLevelCompleted = false;
         m_fCurrentTimeBetweenClues = 0.0f;
         m_uCurrentClue = 0u;
+        MaterialLocalization materialLocalization = GameObject.FindGameObjectWithTag("Player").transform.Find("FirstPersonCharacter").Find("Hand").Find("Photo").GetComponent<MaterialLocalization>();
+        if (materialLocalization)
+        {
+            LocalizationUtils.UpdateHandMaterial(materialLocalization);
+        }
         if (CluesInfo.Length <= 0)
         {
             Debug.LogError("[GameManager.Start] ERROR. This scene does not have CluesInfo set");
             return;
-        }
-        MaterialLocalization materialLocalization = GameObject.FindGameObjectWithTag("Player").transform.Find("FirstPersonCharacter").Find("Hand").Find("HandModel").GetComponent<MaterialLocalization>();
-        if (materialLocalization)
-        {
-            LocalizationUtils.UpdateHandMaterial(materialLocalization);
         }
         StartCoroutine(DelayedStart());
     }

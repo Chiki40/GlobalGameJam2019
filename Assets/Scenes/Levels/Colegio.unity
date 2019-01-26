@@ -7014,6 +7014,16 @@ PrefabInstance:
       propertyPath: MaterialSpanish
       value: 
       objectReference: {fileID: 2100000, guid: 79089f35c92323d46b2759608e5629a1, type: 2}
+    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialEnglish
+      value: 
+      objectReference: {fileID: 2100000, guid: a904a25501b0b714288c29c7cc35ce29, type: 2}
+    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialSpanish
+      value: 
+      objectReference: {fileID: 2100000, guid: 79089f35c92323d46b2759608e5629a1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55489ee7893b23b4891a512ced2612d0, type: 3}
 --- !u!1 &750569156

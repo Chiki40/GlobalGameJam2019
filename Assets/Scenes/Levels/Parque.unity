@@ -576,6 +576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 487551844}
     m_Modifications:
+    - target: {fileID: 100002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
+      propertyPath: m_Name
+      value: casa_3_alturas_a
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.304787
@@ -619,10 +623,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
-      propertyPath: m_Name
-      value: casa_3_alturas_a
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
@@ -1361,6 +1361,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialEnglish
+      value: 
+      objectReference: {fileID: 2100000, guid: 740c7598c703a34488f6deb6c14fc807, type: 2}
+    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialSpanish
+      value: 
+      objectReference: {fileID: 2100000, guid: 39c468aeef14ad541a8826328b01b9d1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55489ee7893b23b4891a512ced2612d0, type: 3}
 --- !u!1001 &758556739
@@ -2630,6 +2640,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 487551844}
     m_Modifications:
+    - target: {fileID: 100002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
+      propertyPath: m_Name
+      value: casa_3_alturas_a (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -98.485214
@@ -2674,10 +2688,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
-      propertyPath: m_Name
-      value: casa_3_alturas_a (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
 --- !u!4 &1789995075 stripped
@@ -2693,6 +2703,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
+      propertyPath: m_Name
+      value: casa_3_alturas_a
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -90.7
@@ -2736,10 +2750,6 @@ PrefabInstance:
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
-      propertyPath: m_Name
-      value: casa_3_alturas_a
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
