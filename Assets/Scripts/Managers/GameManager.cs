@@ -4,7 +4,14 @@ using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour {
 
-    public float []fTimeToGiveClues;
+    [System.Serializable]
+    public struct ClueInfo
+    {
+        public UnityEvent eClueEvent;
+        public float fTimeToGiveClue;
+    }
+
+    public ClueInfo[]CluesInfo;
 
     public UnityEvent eFinishEvent = null;
     public UnityEvent eStartEvent = null;
@@ -34,22 +41,31 @@ public class GameManager : MonoBehaviour {
             Restart();
         }
 
+        if (Input.GetButtonDown("Jump") && m_bCluesDisabled)
+        {
+            ShowClue((uint)CluesInfo.Length - 1u);
+        }
+
         if (!m_bCluesDisabled)
         {
-            m_fCurrentTimeBetweenClues = Mathf.Min(m_fCurrentTimeBetweenClues + Time.deltaTime, fTimeToGiveClues[m_uCurrentClue]);
-            if (m_fCurrentTimeBetweenClues >= fTimeToGiveClues[m_uCurrentClue])
+            m_fCurrentTimeBetweenClues = Mathf.Min(m_fCurrentTimeBetweenClues + Time.deltaTime, CluesInfo[m_uCurrentClue].fTimeToGiveClue);
+            if (m_fCurrentTimeBetweenClues >= CluesInfo[m_uCurrentClue].fTimeToGiveClue)
             {
-                // Show hint m_uCurrentClue
-                GameObject.Find("Diary").GetComponent<Diary>().ShowEntries(m_uCurrentClue);
+                ShowClue(m_uCurrentClue);
                 m_fCurrentTimeBetweenClues = 0.0f;
                 ++m_uCurrentClue;
-                if (m_uCurrentClue >= fTimeToGiveClues.Length)
+                if (m_uCurrentClue >= CluesInfo.Length)
                 {
                     m_bCluesDisabled = true; // All clues given, stop clues
                 }
             }
         }
 	}
+
+    private void ShowClue(uint uClue)
+    {
+        CluesInfo[uClue].eClueEvent.Invoke();
+    }
 
     public void ObjectEventCompleted()
     {
