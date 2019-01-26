@@ -14,17 +14,31 @@ public class MainMenu : MonoBehaviour
             transform.Find("Background").Find("ButtonPanel").Find("Exit").GetComponent<Button>().interactable = false;
         #endif
         UpdateLanguage();
+        int iLanguage = PlayerPrefs.GetInt("Language");
+        if (iLanguage == 0)
+        {
+            transform.Find("Background").Find("English").GetComponent<Button>().interactable = false;
+            transform.Find("Background").Find("Spanish").GetComponent<Button>().interactable = true;
+        }
+        else
+        {
+            transform.Find("Background").Find("English").GetComponent<Button>().interactable = true;
+            transform.Find("Background").Find("Spanish").GetComponent<Button>().interactable = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Cancel"))
+        {
+            ExitGame();
+        }
     }
 
     public void OnClickStart()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Tienda");
     }
 
 
@@ -35,10 +49,7 @@ public class MainMenu : MonoBehaviour
 
     public void OnClickExit()
     {
-        #if (UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX) && !UNITY_EDITOR
-            //UtilSound.instance.PlaySound("click", 1.0f, false, true);
-            Application.Quit();
-        #endif
+        ExitGame();
     }
 
     public void OnClickSpanish()
@@ -53,6 +64,14 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.SetInt("Language", 0);
         PlayerPrefs.Save();
         UpdateLanguage();
+    }
+
+    private void ExitGame()
+    {
+        #if (UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX) && !UNITY_EDITOR
+            //UtilSound.instance.PlaySound("click", 1.0f, false, true);
+            Application.Quit();
+        #endif
     }
 
     void UpdateLanguage()
