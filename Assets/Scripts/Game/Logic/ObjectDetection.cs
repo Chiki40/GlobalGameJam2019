@@ -6,6 +6,7 @@ public class ObjectDetection : MonoBehaviour
     private GameObject m_CurrentDetectableObject = null;
     private Camera m_Camera = null;
     private GameObject m_GameFlores = null;
+    private GameManager m_GameManager = null;
     private float m_fCurrentTimeLookingAtObject = 0.0f;
     private bool m_bObjectDetected = false;
 
@@ -16,8 +17,6 @@ public class ObjectDetection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_fCurrentTimeLookingAtObject = 0.0f;
-        m_bObjectDetected = false;
         m_Camera = transform.GetComponentInChildren<Camera>();
         if (!m_Camera)
         {
@@ -31,12 +30,28 @@ public class ObjectDetection : MonoBehaviour
             Debug.LogError("[ObjectDetection.Start] ERROR. GameFlores not found in scene");
             return;
         }
+
+        GameObject gameManagerObj = GameObject.FindGameObjectWithTag("GameManager");
+        if (!gameManagerObj)
+        {
+            Debug.LogError("[ObjectDetection.Start] ERROR. GameManager not found in scene");
+            return;
+        }
+        m_GameManager = gameManagerObj.GetComponent<GameManager>();
+        if (!m_GameManager)
+        {
+            Debug.LogError("[ObjectDetection.Start] ERROR. Object " + gameManagerObj.name + " does not have GameManager component");
+            return;
+        }
+
+        Reset();
     }
 
     public void Reset()
     {
         m_fCurrentTimeLookingAtObject = 0.0f;
         m_bObjectDetected = false;
+        GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
         if (m_GameFlores)
         {
             m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, 0.0f, 1.0f);
@@ -68,6 +83,7 @@ public class ObjectDetection : MonoBehaviour
                             m_CurrentDetectableObject = null;
                             GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
                             eFinishEvent.Invoke();
+                            m_GameManager.ObjectEventCompleted();
                         }
                         else
                         {

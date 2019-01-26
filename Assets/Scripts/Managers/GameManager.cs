@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour {
         }
 	}
 
+    public void ObjectEventCompleted()
+    {
+        Debug.Log("ObjectEventCompleted");
+    }
+
     public void Restart()
     {
         //UtilSound.instance.PlaySound("click", 1.0f, false, true);
