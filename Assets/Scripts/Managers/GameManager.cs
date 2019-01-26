@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour {
 
     public void ReturnToMainMenu()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
         //UtilSound.instance.PlaySound("click", 1.0f, false, true);
         SceneManager.LoadScene("MainMenu");
     }

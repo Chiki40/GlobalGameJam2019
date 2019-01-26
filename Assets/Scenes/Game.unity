@@ -773,6 +773,11 @@ PrefabInstance:
       propertyPath: eFinishEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1911946482018410843, guid: 61c5d14e5aaa06341b600499049f6649,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61c5d14e5aaa06341b600499049f6649, type: 3}
 --- !u!20 &3506248619937752872 stripped
