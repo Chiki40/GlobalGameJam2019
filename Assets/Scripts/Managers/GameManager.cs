@@ -23,13 +23,18 @@ public class GameManager : MonoBehaviour {
     private uint m_uCurrentClue;
 
 	// Use this for initialization
-	void Start ()
+	void Start()
     {
         UtilSound.instance.StopAllSounds();
         m_bCluesDisabled = false;
         m_bLevelCompleted = false;
         m_fCurrentTimeBetweenClues = 0.0f;
         m_uCurrentClue = 0u;
+        if (CluesInfo.Length <= 0)
+        {
+            Debug.LogError("[GameManager.Start] ERROR. This scene does not have CluesInfo set");
+            return;
+        }
         StartCoroutine(DelayedStart());
     }
 
