@@ -45,7 +45,7 @@ public class Diary : MonoBehaviour
     public void ShowEntries(uint uLastEntry)
     {
         Background.gameObject.SetActive(true);
-        for (int i = 0; i < lEntries.Length; ++i)
+        for (int i = 0; i <= uLastEntry; ++i)
         {
             Transform Child = Background.Find("Clue" + i);
             Text ChildText = Child.gameObject.GetComponent<Text>();

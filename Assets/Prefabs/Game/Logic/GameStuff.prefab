@@ -248,6 +248,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8397898010101688797}
     m_Modifications:
+    - target: {fileID: 8517095776201115743, guid: 8807cdd875d86074887f3442ba510180,
+        type: 3}
+      propertyPath: m_Name
+      value: GameFlores
+      objectReference: {fileID: 0}
     - target: {fileID: 3560224341470181580, guid: 8807cdd875d86074887f3442ba510180,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -353,11 +358,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8517095776201115743, guid: 8807cdd875d86074887f3442ba510180,
-        type: 3}
-      propertyPath: m_Name
-      value: GameFlores
-      objectReference: {fileID: 0}
     - target: {fileID: 2831570937173288957, guid: 8807cdd875d86074887f3442ba510180,
         type: 3}
       propertyPath: m_Camera
@@ -453,6 +453,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8397898010101688797}
     m_Modifications:
+    - target: {fileID: 3803151536127519699, guid: 3abb83714878d184c8f1765957a6773d,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
     - target: {fileID: 3803151536127519697, guid: 3abb83714878d184c8f1765957a6773d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -507,11 +512,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3803151536127519699, guid: 3abb83714878d184c8f1765957a6773d,
-        type: 3}
-      propertyPath: m_Name
-      value: GameManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3abb83714878d184c8f1765957a6773d, type: 3}

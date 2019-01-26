@@ -232,6 +232,46 @@ PrefabInstance:
       propertyPath: m_vPhotoShowedPos.y
       value: -0.28
       objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClues.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClue.Array.data[0]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClue.Array.data[1]
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClue.Array.data[2]
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClues.Array.data[0]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClues.Array.data[1]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: fTimeToGiveClues.Array.data[2]
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55489ee7893b23b4891a512ced2612d0, type: 3}
 --- !u!1001 &93284854
