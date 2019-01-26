@@ -10,6 +10,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
+        [SerializeField] public Vector3 m_vPhotoHiddenPos = new Vector3(0.3f, -0.65f, 0.5f);
+        [SerializeField] public Vector3 m_vPhotoShowedPos = new Vector3(0.23f, -0.28f, 0.53f);
+        [SerializeField] public float m_fPhotoInterpolationTime = 0.5f;
         [SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
@@ -41,6 +44,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private bool m_bPhotoVisible = false;
+        private float m_fCurrentPhotoInterpolationTime = 0.0f;
 
         // Use this for initialization
         private void Start()
@@ -55,6 +60,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            m_bPhotoVisible = false;
+            m_fCurrentPhotoInterpolationTime = 0.0f;
         }
 
 
@@ -67,6 +74,23 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
             }
+
+            if (CrossPlatformInputManager.GetButtonDown("Jump")) // Show/Hide photo
+            {
+                m_bPhotoVisible = !m_bPhotoVisible;
+                Debug.Log(m_bPhotoVisible);
+            }
+
+            if (m_bPhotoVisible)
+            {
+                m_fCurrentPhotoInterpolationTime = Mathf.Min(m_fCurrentPhotoInterpolationTime + Time.deltaTime, m_fPhotoInterpolationTime);
+            }
+            else
+            {
+                m_fCurrentPhotoInterpolationTime = Mathf.Max(m_fCurrentPhotoInterpolationTime - Time.deltaTime, 0.0f);
+            }
+
+            transform.GetChild(0).Find("Hand").localPosition = m_vPhotoHiddenPos + (m_vPhotoShowedPos - m_vPhotoHiddenPos) * (m_fCurrentPhotoInterpolationTime / m_fPhotoInterpolationTime);
 
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
             {

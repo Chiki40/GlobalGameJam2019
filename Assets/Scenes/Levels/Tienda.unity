@@ -222,6 +222,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_vPhotoShowedPos.y
+      value: -0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_vPhotoHiddenPos.y
+      value: -0.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55489ee7893b23b4891a512ced2612d0, type: 3}
 --- !u!1001 &93284854
@@ -765,10 +775,6 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -824,6 +830,10 @@ PrefabInstance:
     - target: {fileID: 400002, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae9cacc647ff40a44a29848d119e5d32, type: 3}
@@ -3204,7 +3214,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
