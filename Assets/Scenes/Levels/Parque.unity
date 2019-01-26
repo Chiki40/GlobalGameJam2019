@@ -586,7 +586,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 50806808}
-  - component: {fileID: 50806809}
   m_Layer: 9
   m_Name: Centro2 (1)
   m_TagString: Untagged
@@ -618,19 +617,6 @@ Transform:
   m_Father: {fileID: 1917909358}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &50806809
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50806807}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 52.380814, y: 1, z: 36.144127}
-  m_Center: {x: -7.398834, y: 0, z: -9.55666}
 --- !u!1001 &57080791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4732,7 +4718,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 681120530}
-  - component: {fileID: 681120531}
   m_Layer: 9
   m_Name: Centro2 (2)
   m_TagString: Untagged
@@ -4764,19 +4749,6 @@ Transform:
   m_Father: {fileID: 1917909358}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &681120531
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 681120529}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 52.380814, y: 1, z: 36.144127}
-  m_Center: {x: -7.398834, y: 0, z: -9.55666}
 --- !u!1001 &681815951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9180,7 +9152,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1564811073}
-  - component: {fileID: 1564811072}
   m_Layer: 9
   m_Name: Centro2
   m_TagString: Untagged
@@ -9188,19 +9159,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1564811072
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564811071}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 52.380814, y: 1, z: 36.144127}
-  m_Center: {x: -7.398834, y: 0, z: -9.55666}
 --- !u!4 &1564811073
 Transform:
   m_ObjectHideFlags: 0
