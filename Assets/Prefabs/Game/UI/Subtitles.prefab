@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &1130456540952826447
 RectTransform:
@@ -96,9 +96,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subtitles:
   - sText: Me acuerdo de que tenia un gato
-    fTimeout: 3
+    sSoundName: 
   - sText: Y lo mate
-    fTimeout: 3
+    sSoundName: 
 --- !u!1 &5926621283379330975
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +116,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!224 &292487526824513208
 RectTransform:
