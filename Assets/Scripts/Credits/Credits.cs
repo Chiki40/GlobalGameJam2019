@@ -17,6 +17,11 @@ public class Credits : MonoBehaviour
         closeCoroutine = null;
     }
 
+    void Start()
+    {
+        UpdateImages();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -52,5 +57,19 @@ public class Credits : MonoBehaviour
             StopCoroutine(closeCoroutine);
         }
         SceneManager.LoadScene("MainMenu");
+    }
+
+    void UpdateImages()
+    {
+        int iLanguage = PlayerPrefs.GetInt("Language");
+        ImageLocalization[] LocalizatedStuff = GameObject.FindObjectsOfType<ImageLocalization>();
+        for (int i = 0; i < LocalizatedStuff.Length; ++i)
+        {
+            Image imageToLocalize = LocalizatedStuff[i].gameObject.GetComponent<Image>();
+            if (imageToLocalize)
+            {
+                imageToLocalize.sprite = (iLanguage == 0 ? LocalizatedStuff[i].EnglishSprite : LocalizatedStuff[i].SpanishSprite);
+            }
+        }
     }
 }
