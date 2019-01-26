@@ -13,7 +13,8 @@ public class MainMenu : MonoBehaviour
         #if (!UNITY_STANDALONE_WIN && !UNITY_STANDALONE_OSX) || UNITY_EDITOR
             transform.Find("Background").Find("ButtonPanel").Find("Exit").GetComponent<Button>().interactable = false;
         #endif
-        UpdateLanguage();
+        LocalizationUtils.UpdateLanguage();
+        LocalizationUtils.UpdateImages();
         int iLanguage = PlayerPrefs.GetInt("Language");
         if (iLanguage == 0)
         {
@@ -56,14 +57,16 @@ public class MainMenu : MonoBehaviour
     {
         PlayerPrefs.SetInt("Language", 1);
         PlayerPrefs.Save();
-        UpdateLanguage();
+        LocalizationUtils.UpdateLanguage();
+        LocalizationUtils.UpdateImages();
     }
 
     public void OnClickEnglish()
     {
         PlayerPrefs.SetInt("Language", 0);
         PlayerPrefs.Save();
-        UpdateLanguage();
+        LocalizationUtils.UpdateLanguage();
+        LocalizationUtils.UpdateImages();
     }
 
     private void ExitGame()
@@ -72,19 +75,5 @@ public class MainMenu : MonoBehaviour
             //UtilSound.instance.PlaySound("click", 1.0f, false, true);
             Application.Quit();
         #endif
-    }
-
-    void UpdateLanguage()
-    {
-        int iLanguage = PlayerPrefs.GetInt("Language");
-        Localization []LocalizatedStuff = GameObject.FindObjectsOfType<Localization>();
-        for (int i = 0; i < LocalizatedStuff.Length; ++i)
-        {
-            Text textToLocalize = LocalizatedStuff[i].gameObject.GetComponent<Text>();
-            if (textToLocalize)
-            {
-                textToLocalize.text = (iLanguage == 0 ? LocalizatedStuff[i].sEnglishText : LocalizatedStuff[i].sSpanishText);
-            }
-        }
     }
 }
