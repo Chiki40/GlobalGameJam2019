@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: f15dc1826b904e94fb9392abc0c15d64
+guid: 572d29b6fdfdb7f4ab77a3183fafe537
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: CASA_2_alturas
-    100002: //RootNode
-    400000: CASA_2_alturas
-    400002: //RootNode
-    2100000: lambert1
-    2300000: CASA_2_alturas
-    3300000: CASA_2_alturas
-    4300000: CASA_2_alturas
+    100000: //RootNode
+    100002: default
+    400000: //RootNode
+    400002: default
+    2100000: defaultMat
+    2300000: default
+    3300000: default
+    4300000: default
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -42,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.008
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

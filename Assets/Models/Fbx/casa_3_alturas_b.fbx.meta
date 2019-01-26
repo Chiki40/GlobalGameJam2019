@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: f15dc1826b904e94fb9392abc0c15d64
+guid: de04b82625cbf2f4e8bbd8113c22e087
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: CASA_2_alturas
+    100000: CASA_3_alturas
     100002: //RootNode
-    400000: CASA_2_alturas
+    400000: CASA_3_alturas
     400002: //RootNode
     2100000: lambert1
-    2300000: CASA_2_alturas
-    3300000: CASA_2_alturas
-    4300000: CASA_2_alturas
+    2100002: amarillo_1
+    2100004: rojo_1
+    2100006: gris_2
+    2300000: CASA_3_alturas
+    3300000: CASA_3_alturas
+    4300000: CASA_3_alturas
   externalObjects: {}
   materials:
     importMaterials: 1
