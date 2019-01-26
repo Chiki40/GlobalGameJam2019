@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 42932900}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -181,6 +181,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c45431f0c9c2c74c83365df0621f0c1, type: 3}
+--- !u!108 &42932900 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1948708272571790964, guid: 8c45431f0c9c2c74c83365df0621f0c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 42932899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &87520230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -191,6 +197,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_c (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -255,6 +269,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_c (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132
@@ -317,6 +339,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -392,7 +422,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &417083467
 Transform:
@@ -424,6 +454,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -496,6 +534,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_c (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132
@@ -558,6 +604,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -630,6 +684,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_b
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
       value: -101.6
@@ -700,6 +762,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -881,6 +951,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_b (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.9
@@ -952,6 +1030,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_c (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132
@@ -1014,6 +1100,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_c (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1081,7 +1175,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1024718376
 Transform:
@@ -1113,6 +1207,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_c (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1256,6 +1358,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_b (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.7
@@ -1327,6 +1437,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_c (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132
@@ -1389,6 +1507,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_c (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1453,6 +1579,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_c (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132
@@ -1515,11 +1649,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1594897980}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Terreno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1594897980
 Transform:
@@ -1546,6 +1680,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_c
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1613,7 +1755,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1639199265
 Transform:
@@ -1645,6 +1787,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_c
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1708,6 +1858,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1779,6 +1937,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1886,6 +2052,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_b (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.7
@@ -1957,6 +2131,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: casa_1_altura_c (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 99f7eac56c8d6f946806f88456ffa27e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -132
@@ -2019,6 +2201,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2090,6 +2280,14 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_Name
       value: casa_1_altura_b (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9c839332acefd224c8c2441b080fc823, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2165,7 +2363,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2143729466
 Transform:
