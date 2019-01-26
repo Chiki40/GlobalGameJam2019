@@ -77,7 +77,7 @@ public class ObjectDetection : MonoBehaviour
                         m_fCurrentTimeLookingAtObject = Mathf.Min(m_fCurrentTimeLookingAtObject + Time.deltaTime, fTimeLookingAtObject);
                         if (m_fCurrentTimeLookingAtObject >= fTimeLookingAtObject)
                         {
-                            Debug.Log("Conseguido!\n");
+                            //Debug.Log("Conseguido!\n");
                             m_bObjectDetected = true;
                             m_CurrentDetectableObject.transform.GetComponentInChildren<Collider>().enabled = false;
                             m_CurrentDetectableObject = null;
@@ -88,7 +88,7 @@ public class ObjectDetection : MonoBehaviour
                         else
                         {
                             float progress = m_fCurrentTimeLookingAtObject / fTimeLookingAtObject;
-                            Debug.Log(progress);
+                            //Debug.Log(progress);
                             if (m_GameFlores)
                             {
                                 m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
@@ -102,7 +102,7 @@ public class ObjectDetection : MonoBehaviour
             {
                 m_fCurrentTimeLookingAtObject = Mathf.Max(m_fCurrentTimeLookingAtObject - Time.deltaTime, 0.0f);
                 float progress = m_fCurrentTimeLookingAtObject / fTimeLookingAtObject;
-                Debug.Log(progress);
+                //Debug.Log(progress);
                 if (m_GameFlores)
                 {
                     m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
