@@ -81,6 +81,7 @@ public class ObjectDetection : MonoBehaviour
                                 //Debug.Log("Conseguido!\n");
                                 m_bObjectDetected = true;
                                 m_CurrentDetectableObject.transform.GetComponentInChildren<Collider>().enabled = false;
+                                m_CurrentDetectableObject.GetComponentInChildren<PlayFlashback>().playFlashback();
                                 m_CurrentDetectableObject = null;
                                 GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
                                 m_GameManager.ObjectEventCompleted();
