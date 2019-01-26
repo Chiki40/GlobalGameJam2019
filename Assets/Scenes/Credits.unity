@@ -192,6 +192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Credits
       objectReference: {fileID: 0}
+    - target: {fileID: 1052908806542792, guid: fa072dc5b0fa42f48a83391f6e612d67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 224576760040175322, guid: fa072dc5b0fa42f48a83391f6e612d67,
         type: 3}
       propertyPath: m_LocalPosition.x
