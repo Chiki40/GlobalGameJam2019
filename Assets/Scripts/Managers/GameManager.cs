@@ -103,4 +103,9 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void nextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
 }
