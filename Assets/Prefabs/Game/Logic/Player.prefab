@@ -394,4 +394,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fAngleOffset: 12
-  fTimeLookingAtObject: 3
+  fTimeLookingAtObject: 2
