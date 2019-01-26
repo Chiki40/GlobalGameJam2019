@@ -32,13 +32,16 @@ public class Subtitles : MonoBehaviour
 
     public void PlaySubtitles()
     {
-        m_uCurrentSubtitleNum = 0u;
-        m_fCurrentTimeout = 0.0f;
-        m_bPlaying = true;
-        if (m_TextSubtitles) // First subtitle
+        if (!m_bPlaying)
         {
-            m_TextSubtitles.text = subtitles[0u].sText;
-            UtilSound.instance.PlaySound(subtitles[0u].sSoundName);
+            m_uCurrentSubtitleNum = 0u;
+            m_fCurrentTimeout = 0.0f;
+            m_bPlaying = true;
+            if (m_TextSubtitles) // First subtitle
+            {
+                m_TextSubtitles.text = subtitles[0u].sText;
+                UtilSound.instance.PlaySound(subtitles[0u].sSoundName);
+            }
         }
     }
 
@@ -60,7 +63,6 @@ public class Subtitles : MonoBehaviour
                     {
                         m_TextSubtitles.text = "";
                     }
-                    transform.parent.gameObject.SetActive(false); // Disable this subtitle object
                 }
                 else
                 {
