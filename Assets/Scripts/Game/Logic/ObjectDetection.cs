@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class ObjectDetection : MonoBehaviour
 {
@@ -12,6 +11,7 @@ public class ObjectDetection : MonoBehaviour
 
     public float fAngleOffset = 8.0f;
     public float fTimeLookingAtObject = 3.0f;
+    public UnityEvent eFinishEvent = null;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +55,8 @@ public class ObjectDetection : MonoBehaviour
                             m_bObjectDetected = true;
                             m_CurrentDetectableObject.transform.GetComponentInChildren<Collider>().enabled = false;
                             m_CurrentDetectableObject = null;
+                            GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
+                            eFinishEvent.Invoke();
                         }
                         else
                         {
