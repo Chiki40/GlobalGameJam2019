@@ -540,6 +540,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
 --- !u!1001 &1625135143907628933

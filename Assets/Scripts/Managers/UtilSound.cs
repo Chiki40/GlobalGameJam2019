@@ -148,6 +148,16 @@ public class UtilSound : MonoBehaviour
         return false; // Not found. It is not playing
     }
 
+    public float GetClipLength(string name)
+    {
+        if (clipsDictionary.ContainsKey(name))
+        {
+            AudioClip clip = clipsDictionary[name];
+            return clip.length;
+        }
+        return 0.0f;
+    }
+
     void OnApplicationFocus(bool focus)
     {
         _focus = focus;

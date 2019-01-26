@@ -7,7 +7,7 @@ public class Subtitles : MonoBehaviour
     public struct SubtitleEntry
     {
         public string sText;
-        public float fTimeout;
+        public string sSoundName;
     }
 
     private uint m_uCurrentSubtitleNum = 0u;
@@ -35,9 +35,10 @@ public class Subtitles : MonoBehaviour
         m_uCurrentSubtitleNum = 0u;
         m_fCurrentTimeout = 0.0f;
         m_bPlaying = true;
-        if (m_TextSubtitles)
+        if (m_TextSubtitles) // First subtitle
         {
             m_TextSubtitles.text = subtitles[0u].sText;
+            UtilSound.instance.PlaySound(subtitles[0u].sSoundName);
         }
     }
 
@@ -46,8 +47,9 @@ public class Subtitles : MonoBehaviour
     {
         if (m_bPlaying)
         {
-            m_fCurrentTimeout = Mathf.Min(m_fCurrentTimeout + Time.deltaTime, subtitles[m_uCurrentSubtitleNum].fTimeout);
-            if (m_fCurrentTimeout >= subtitles[m_uCurrentSubtitleNum].fTimeout)
+            float fTimeOut = UtilSound.instance.GetClipLength(subtitles[m_uCurrentSubtitleNum].sSoundName);
+            m_fCurrentTimeout = Mathf.Min(m_fCurrentTimeout + Time.deltaTime, fTimeOut);
+            if (m_fCurrentTimeout >= fTimeOut)
             {
                 m_fCurrentTimeout = 0.0f;
                 ++m_uCurrentSubtitleNum;
@@ -61,9 +63,10 @@ public class Subtitles : MonoBehaviour
                 }
                 else
                 {
-                    if (m_TextSubtitles)
+                    if (m_TextSubtitles) // New subtitle
                     {
                         m_TextSubtitles.text = subtitles[m_uCurrentSubtitleNum].sText;
+                        UtilSound.instance.PlaySound(subtitles[m_uCurrentSubtitleNum].sSoundName);
                     }
                 }
             }
