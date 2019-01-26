@@ -48,7 +48,7 @@ public class UtilSound : MonoBehaviour
         }
     }
 
-    public void PlaySound(string name, float volume = 1.0f, bool loop = false, bool useFamilySounds = false)
+    public void PlaySound(string name, float volume = 1.0f, bool loop = false, bool useFamilySounds = false, bool fadeIn = false, float timeFade = 0.5f)
     {
         string path = DEFAULT_SOUNDS_PATH + name;
         //AudioClip clip = Resources.Load<AudioClip>(path); // Load sound from disk
@@ -95,6 +95,17 @@ public class UtilSound : MonoBehaviour
         newSource.volume = volume;
         newSource.loop = loop; // Assign given loop property
         newSource.Play(); // Play the sound
+
+        if(fadeIn)
+        {
+            StartCoroutine(AudioFadeScript.FadeIn(newSource, timeFade));
+
+            for (int i = 0; i < sounds.Count; ++i)
+            {
+                StartCoroutine(AudioFadeScript.FadeOut(sounds[i].GetComponent<AudioSource>(), timeFade));
+            }
+        }
+
         sounds.Add(newObject); // Store the new AudioSource
     }
 
