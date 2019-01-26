@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour {
     public UnityEvent eFinishEvent = null;
     public UnityEvent eStartEvent = null;
     private bool m_bCluesDisabled = false;
+    private bool m_bLevelCompleted = false;
     private float m_fCurrentTimeBetweenClues;
     private uint m_uCurrentClue;
 
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour {
     {
         UtilSound.instance.StopAllSounds();
         m_bCluesDisabled = false;
+        m_bLevelCompleted = false;
         m_fCurrentTimeBetweenClues = 0.0f;
         m_uCurrentClue = 0u;
         eStartEvent.Invoke();
@@ -41,7 +43,7 @@ public class GameManager : MonoBehaviour {
             Restart();
         }
 
-        if (Input.GetButtonDown("Jump") && m_bCluesDisabled)
+        if (Input.GetButtonDown("Jump") && m_bCluesDisabled && !m_bLevelCompleted) // Only manual clues are accepted if clues are disabled but level is not completed (which means every clue was received)
         {
             ShowClue((uint)CluesInfo.Length - 1u);
         }
@@ -70,7 +72,8 @@ public class GameManager : MonoBehaviour {
     public void ObjectEventCompleted()
     {
         Debug.Log("ObjectEventCompleted");
-        m_bCluesDisabled = true; // Level completed, stop clues
+        m_bLevelCompleted = true;
+        m_bCluesDisabled = true; // Level completed, stop automatic clues
         eFinishEvent.Invoke();
     }
 
