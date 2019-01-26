@@ -35,6 +35,11 @@ public class GameManager : MonoBehaviour {
             Debug.LogError("[GameManager.Start] ERROR. This scene does not have CluesInfo set");
             return;
         }
+        MaterialLocalization materialLocalization = GameObject.FindGameObjectWithTag("Player").transform.Find("FirstPersonCharacter").Find("Hand").Find("HandModel").GetComponent<MaterialLocalization>();
+        if (materialLocalization)
+        {
+            LocalizationUtils.UpdateHandMaterial(materialLocalization);
+        }
         StartCoroutine(DelayedStart());
     }
 

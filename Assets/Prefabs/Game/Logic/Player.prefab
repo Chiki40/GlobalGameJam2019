@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 1545951388299118356}
   - component: {fileID: 1545951388299888438}
   - component: {fileID: 1545951388300887542}
+  - component: {fileID: 6277447622011901691}
   m_Layer: 0
   m_Name: HandModel
   m_TagString: Untagged
@@ -154,6 +155,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &6277447622011901691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545951388298697524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5092d6c82bd04b841a8f376e447d1569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaterialEnglish: {fileID: 2100000, guid: 926fc9428f6d7864a83f8f9519a08097, type: 2}
+  MaterialSpanish: {fileID: 2100000, guid: a3c55e913f95b8647a9234febe9f3a38, type: 2}
 --- !u!1 &1545951388298697526
 GameObject:
   m_ObjectHideFlags: 0
