@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287124408}
   m_LocalRotation: {x: -0.5601014, y: -0.4229684, z: 0.58689195, w: 0.40366077}
-  m_LocalPosition: {x: 0.10899996, y: -0.05299996, z: -0.043000083}
-  m_LocalScale: {x: 0.04, y: 1, z: 0.025}
+  m_LocalPosition: {x: 0.08, y: -0.05299996, z: -0.043000083}
+  m_LocalScale: {x: 0.03, y: 1, z: 0.02}
   m_Children: []
   m_Father: {fileID: 1545951388299118358}
   m_RootOrder: 1
@@ -178,7 +178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545951388298697526}
   m_LocalRotation: {x: 0.14255731, y: 0.11961979, z: 0.75266296, w: 0.63155925}
-  m_LocalPosition: {x: 0.23, y: -0.65, z: 0.52999973}
+  m_LocalPosition: {x: 0.38, y: -0.45, z: 0.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1545951388299118356}
@@ -344,8 +344,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_vPhotoHiddenPos: {x: 0.3, y: -0.65, z: 0.5}
-  m_vPhotoShowedPos: {x: 0.23, y: -0.28, z: 0.53}
+  m_vPhotoHiddenPos: {x: 0.38, y: -0.45, z: 0.53}
+  m_vPhotoShowedPos: {x: 0.11, y: -0.19, z: 0.53}
   m_fPhotoInterpolationTime: 0.5
   m_IsWalking: 0
   m_WalkSpeed: 10
