@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7577652606261864223}
   - component: {fileID: 7113667322103461159}
   - component: {fileID: 7113667322572062391}
+  - component: {fileID: 7862551339399405717}
   m_Layer: 0
   m_Name: Tienda
   m_TagString: DetectableObject
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &7862551339399405717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7577652606261864288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9f3344de7858545a071a15a8b2b081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fDetectionAngleOffset: 8
+  fDetectionTimeLookingAtObject: 2
 --- !u!1 &7577652606645325694
 GameObject:
   m_ObjectHideFlags: 0
