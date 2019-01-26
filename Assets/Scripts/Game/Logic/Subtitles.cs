@@ -60,6 +60,7 @@ public class Subtitles : MonoBehaviour
                     {
                         m_TextSubtitles.text = "";
                     }
+                    transform.parent.gameObject.SetActive(false); // Disable this subtitle object
                 }
                 else
                 {
