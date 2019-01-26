@@ -33,6 +33,17 @@ public class ObjectDetection : MonoBehaviour
         }
     }
 
+    public void Reset()
+    {
+        m_fCurrentTimeLookingAtObject = 0.0f;
+        m_bObjectDetected = false;
+        if (m_GameFlores)
+        {
+            m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, 0.0f, 1.0f);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -62,8 +73,11 @@ public class ObjectDetection : MonoBehaviour
                         {
                             float progress = m_fCurrentTimeLookingAtObject / fTimeLookingAtObject;
                             Debug.Log(progress);
-                            m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
-                            m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                            if (m_GameFlores)
+                            {
+                                m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                                m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                            }
                         }
                     }
                 }
@@ -73,8 +87,11 @@ public class ObjectDetection : MonoBehaviour
                 m_fCurrentTimeLookingAtObject = Mathf.Max(m_fCurrentTimeLookingAtObject - Time.deltaTime, 0.0f);
                 float progress = m_fCurrentTimeLookingAtObject / fTimeLookingAtObject;
                 Debug.Log(progress);
-                m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
-                m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                if (m_GameFlores)
+                {
+                    m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                    m_GameFlores.transform.Find("BarDown").GetComponent<RectTransform>().localScale = new Vector3(1.0f, progress, 1.0f);
+                }
             }
         }
     }
