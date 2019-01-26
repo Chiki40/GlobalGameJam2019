@@ -92,6 +92,7 @@ ModelImporter:
     100172: ventana_189
     100174: ventana_190
     100176: ventana_191
+    100178: escaleras_1
     400000: CASA_3_alturas
     400002: //RootNode
     400004: antena
@@ -181,6 +182,7 @@ ModelImporter:
     400172: ventana_189
     400174: ventana_190
     400176: ventana_191
+    400178: escaleras_1
     2100000: lambert1
     2100002: amarillo_1
     2100004: rojo_1
@@ -284,6 +286,7 @@ ModelImporter:
     2300170: ventana_189
     2300172: ventana_190
     2300174: ventana_191
+    2300176: escaleras_1
     3300000: CASA_3_alturas
     3300002: antena
     3300004: balcon_1
@@ -372,6 +375,7 @@ ModelImporter:
     3300170: ventana_189
     3300172: ventana_190
     3300174: ventana_191
+    3300176: escaleras_1
     4300000: CASA_3_alturas
     4300002: ventana_8
     4300004: ventana_15
@@ -460,6 +464,7 @@ ModelImporter:
     4300170: pCube174
     4300172: ladrillos3
     4300174: balcon_3
+    4300176: escaleras_1
     6400000: CASA_3_alturas
     6400002: antena
     6400004: balcon_1
@@ -548,6 +553,7 @@ ModelImporter:
     6400170: ventana_189
     6400172: ventana_190
     6400174: ventana_191
+    6400176: escaleras_1
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
