@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour {
 
     public ClueInfo[]CluesInfo;
 
+    public float m_fStartDelay = 0.5f;
     public UnityEvent eFinishEvent = null;
     public UnityEvent eStartEvent = null;
     private bool m_bCluesDisabled = false;
@@ -28,6 +30,12 @@ public class GameManager : MonoBehaviour {
         m_bLevelCompleted = false;
         m_fCurrentTimeBetweenClues = 0.0f;
         m_uCurrentClue = 0u;
+        StartCoroutine(DelayedStart());
+    }
+
+    IEnumerator DelayedStart()
+    {
+        yield return new WaitForSeconds(m_fStartDelay);
         eStartEvent.Invoke();
     }
 	

@@ -7,7 +7,9 @@ public class Subtitles : MonoBehaviour
     public struct SubtitleEntry
     {
         public string sText;
+        public string sTextES;
         public string sSoundName;
+        public string sSoundNameES;
     }
 
     private uint m_uCurrentSubtitleNum = 0u;
@@ -39,8 +41,9 @@ public class Subtitles : MonoBehaviour
             m_bPlaying = true;
             if (m_TextSubtitles) // First subtitle
             {
-                m_TextSubtitles.text = subtitles[0u].sText;
-                UtilSound.instance.PlaySound(subtitles[0u].sSoundName);
+                int iLanguage = PlayerPrefs.GetInt("Language");
+                m_TextSubtitles.text = (iLanguage == 0 ? subtitles[0u].sText : subtitles[0u].sTextES);
+                UtilSound.instance.PlaySound(iLanguage == 0 ? subtitles[0u].sSoundName : subtitles[0u].sSoundNameES);
             }
         }
     }
@@ -50,7 +53,8 @@ public class Subtitles : MonoBehaviour
     {
         if (m_bPlaying)
         {
-            float fTimeOut = UtilSound.instance.GetClipLength(subtitles[m_uCurrentSubtitleNum].sSoundName);
+            int iLanguage = PlayerPrefs.GetInt("Language");
+            float fTimeOut = UtilSound.instance.GetClipLength(iLanguage == 0 ? subtitles[m_uCurrentSubtitleNum].sSoundName : subtitles[m_uCurrentSubtitleNum].sSoundNameES);
             m_fCurrentTimeout = Mathf.Min(m_fCurrentTimeout + Time.deltaTime, fTimeOut);
             if (m_fCurrentTimeout >= fTimeOut)
             {
@@ -68,8 +72,8 @@ public class Subtitles : MonoBehaviour
                 {
                     if (m_TextSubtitles) // New subtitle
                     {
-                        m_TextSubtitles.text = subtitles[m_uCurrentSubtitleNum].sText;
-                        UtilSound.instance.PlaySound(subtitles[m_uCurrentSubtitleNum].sSoundName);
+                        m_TextSubtitles.text = (iLanguage == 0 ? subtitles[m_uCurrentSubtitleNum].sText : subtitles[m_uCurrentSubtitleNum].sTextES);
+                        UtilSound.instance.PlaySound(iLanguage == 0 ? subtitles[m_uCurrentSubtitleNum].sSoundName : subtitles[m_uCurrentSubtitleNum].sSoundNameES);
                     }
                 }
             }
