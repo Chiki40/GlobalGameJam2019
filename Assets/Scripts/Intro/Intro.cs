@@ -11,6 +11,7 @@ public class Intro : MonoBehaviour
     void Start()
     {
         m_fCurrentTimeInIntro = 0.0f;
+        UtilSound.instance.PlaySound("MainMenu");
     }
 
     // Update is called once per frame
