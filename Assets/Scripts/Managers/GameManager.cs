@@ -94,6 +94,11 @@ public class GameManager : MonoBehaviour {
     {
         m_bLevelCompleted = true;
         m_bCluesDisabled = true; // Level completed, stop automatic clues
+        GameObject[] itemsToHide = GameObject.FindGameObjectsWithTag("UIToHideInCinematics");
+        for (int i = 0; i < itemsToHide.Length; ++i)
+        {
+            itemsToHide[i].SetActive(false);
+        }
         eFinishEvent.Invoke();
     }
 
