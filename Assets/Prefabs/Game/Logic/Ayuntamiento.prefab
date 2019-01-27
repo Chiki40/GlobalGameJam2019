@@ -1,49 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1224268465822878435
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4626204082496142462}
-  - component: {fileID: 5255634437993159297}
-  m_Layer: 9
-  m_Name: Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
---- !u!4 &4626204082496142462
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224268465822878435}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.030003, y: 0, z: 0}
-  m_LocalScale: {x: 2.000002, y: 2, z: 2}
-  m_Children: []
-  m_Father: {fileID: 1245184761}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &5255634437993159297
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1224268465822878435}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 37.92672, y: 14.84, z: 22.827837}
-  m_Center: {x: -19.605251, y: 0, z: 0.45069492}
 --- !u!1 &4155847012448335745
 GameObject:
   m_ObjectHideFlags: 0
@@ -4535,7 +4491,7 @@ Transform:
   - {fileID: 5863118164647435534}
   - {fileID: 5863118164647435528}
   m_Father: {fileID: 1245184761}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5863118164647526654
 GameObject:
@@ -10092,10 +10048,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1245184761}
-  - component: {fileID: 6890230182997898470}
   m_Layer: 9
   m_Name: Ayuntamiento
-  m_TagString: DetectableObject
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10111,22 +10066,7 @@ Transform:
   m_LocalPosition: {x: -43, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4626204082496142462}
   - {fileID: 5863118164647435484}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6890230182997898470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8809181608984469100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c9f3344de7858545a071a15a8b2b081, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fDetectionAngleOffset: 10
-  fDetectionTimeLookingAtObject: 2
