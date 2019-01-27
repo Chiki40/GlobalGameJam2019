@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour {
             LocalizationUtils.UpdateHandMaterial(materialLocalization);
         }
         StartCoroutine(DelayedStart());
+        UtilSound.instance.PlaySound("birds", 0.4f, true);
     }
 
     IEnumerator DelayedStart()
