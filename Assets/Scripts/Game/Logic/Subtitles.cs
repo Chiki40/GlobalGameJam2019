@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class Subtitles : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Subtitles : MonoBehaviour
     private bool m_bPlaying = false;
     private Text m_TextSubtitles = null;
     public SubtitleEntry[] subtitles;
+    public UnityEvent introEnd;
 
     // Start is called before the first frame update
     void Start()
@@ -66,6 +68,11 @@ public class Subtitles : MonoBehaviour
                     if (m_TextSubtitles)
                     {
                         m_TextSubtitles.text = "";
+                    }
+
+                    if (introEnd != null)
+                    {
+                        introEnd.Invoke();
                     }
                 }
                 else
