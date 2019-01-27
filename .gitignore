@@ -35,3 +35,5 @@ sysinfo.txt
 *.unitypackage
 Assets/UnityVS/
 Assets/UnityVS.meta
+*FbxExporters
+Assets/FbxExporters.meta
