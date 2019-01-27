@@ -48,7 +48,7 @@ public class ObjectDetection : MonoBehaviour
         m_fCurrentTimeLookingAtObject = 0.0f;
         m_bObjectDetected = false;
         m_fDetectionTimeOfCurrentObject = 0.0f;
-        GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
+        //GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
         if (m_GameFlores)
         {
             m_GameFlores.transform.Find("BarUp").GetComponent<RectTransform>().localScale = new Vector3(1.0f, 0.0f, 1.0f);
