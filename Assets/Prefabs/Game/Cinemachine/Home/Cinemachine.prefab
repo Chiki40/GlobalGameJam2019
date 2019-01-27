@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ccf9636d5f21e345ac56b57ab41fb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  director: {fileID: 0}
+  director: {fileID: 7512820752735448492}
   onFinished:
     m_PersistentCalls:
       m_Calls:
