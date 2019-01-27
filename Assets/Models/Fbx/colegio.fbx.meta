@@ -11,6 +11,10 @@ ModelImporter:
     100010: ventana_215
     100012: ventana_216
     100014: ventana_217
+    100016: puerta_35
+    100018: ventana_218
+    100020: ventana_219
+    100022: ventana_220
     400000: campanario
     400002: escaleras_4
     400004: iglesia
@@ -19,6 +23,10 @@ ModelImporter:
     400010: ventana_215
     400012: ventana_216
     400014: ventana_217
+    400016: puerta_35
+    400018: ventana_218
+    400020: ventana_219
+    400022: ventana_220
     2100000: azul_2
     2100002: marron_2
     2100004: marron_1
@@ -33,6 +41,10 @@ ModelImporter:
     2300008: ventana_215
     2300010: ventana_216
     2300012: ventana_217
+    2300014: puerta_35
+    2300016: ventana_218
+    2300018: ventana_219
+    2300020: ventana_220
     3300000: campanario
     3300002: escaleras_4
     3300004: iglesia
@@ -40,6 +52,10 @@ ModelImporter:
     3300008: ventana_215
     3300010: ventana_216
     3300012: ventana_217
+    3300014: puerta_35
+    3300016: ventana_218
+    3300018: ventana_219
+    3300020: ventana_220
     4300000: ventana_213
     4300002: ventana_215
     4300004: ventana_216
@@ -47,6 +63,10 @@ ModelImporter:
     4300008: escaleras_4
     4300010: campanario
     4300012: iglesia
+    4300014: ventana_218
+    4300016: ventana_219
+    4300018: ventana_220
+    4300020: puerta_35
   externalObjects: {}
   materials:
     importMaterials: 1
