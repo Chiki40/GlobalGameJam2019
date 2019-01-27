@@ -17764,36 +17764,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0000009536743
-      objectReference: {fileID: 0}
-    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: near clip plane
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: far clip plane
-      value: 5000
-      objectReference: {fileID: 0}
     - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: CluesInfo.Array.size
@@ -18042,6 +18012,66 @@ PrefabInstance:
       propertyPath: eFinishEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1779396573032043561, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651234247197504553, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000009536743
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: far clip plane
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialEnglish
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ebb38f634c940e4ca9e7a4c26afe6b4, type: 2}
+    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialSpanish
+      value: 
+      objectReference: {fileID: 2100000, guid: 4387a29e44ee4b0429730c88c3b0932b, type: 2}
+    - target: {fileID: 4785544931550862376, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialEnglish
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ebb38f634c940e4ca9e7a4c26afe6b4, type: 2}
+    - target: {fileID: 4785544931550862376, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: MaterialSpanish
+      value: 
+      objectReference: {fileID: 2100000, guid: 4387a29e44ee4b0429730c88c3b0932b, type: 2}
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_WalkSpeed
@@ -18057,41 +18087,11 @@ PrefabInstance:
       propertyPath: m_UseHeadBob
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1779396573032043561, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6723468261713875000, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: MaterialEnglish
-      value: 
-      objectReference: {fileID: 2100000, guid: 9ebb38f634c940e4ca9e7a4c26afe6b4, type: 2}
-    - target: {fileID: 5676804493709843488, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: MaterialSpanish
-      value: 
-      objectReference: {fileID: 2100000, guid: 4387a29e44ee4b0429730c88c3b0932b, type: 2}
-    - target: {fileID: 7651234247197504553, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4785544931550862376, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: MaterialEnglish
-      value: 
-      objectReference: {fileID: 2100000, guid: 9ebb38f634c940e4ca9e7a4c26afe6b4, type: 2}
-    - target: {fileID: 4785544931550862376, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: MaterialSpanish
-      value: 
-      objectReference: {fileID: 2100000, guid: 4387a29e44ee4b0429730c88c3b0932b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55489ee7893b23b4891a512ced2612d0, type: 3}
 --- !u!114 &740348362 stripped
@@ -47781,11 +47781,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cinematic
       objectReference: {fileID: 0}
-    - target: {fileID: 1853582046816359995, guid: 9f3f4ce285de2c14e9d79a591614be6f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1853582046816359984, guid: 9f3f4ce285de2c14e9d79a591614be6f,
         type: 3}
       propertyPath: m_SceneBindings.Array.data[2].value
@@ -47853,34 +47848,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1853582046816359999, guid: 9f3f4ce285de2c14e9d79a591614be6f,
         type: 3}
-      propertyPath: onFinished.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853582046816359999, guid: 9f3f4ce285de2c14e9d79a591614be6f,
-        type: 3}
-      propertyPath: onFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853582046816359999, guid: 9f3f4ce285de2c14e9d79a591614be6f,
-        type: 3}
-      propertyPath: onFinished.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853582046816359999, guid: 9f3f4ce285de2c14e9d79a591614be6f,
-        type: 3}
       propertyPath: onFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 740348363}
-    - target: {fileID: 1853582046816359999, guid: 9f3f4ce285de2c14e9d79a591614be6f,
-        type: 3}
-      propertyPath: onFinished.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: nextLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 1853582046816359999, guid: 9f3f4ce285de2c14e9d79a591614be6f,
-        type: 3}
-      propertyPath: onFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f3f4ce285de2c14e9d79a591614be6f, type: 3}
 --- !u!4 &2890563019637796398 stripped
