@@ -50,6 +50,14 @@ public class Subtitles : MonoBehaviour
         }
     }
 
+    public void CancelSubtitle()
+    {
+        if (m_bPlaying)
+        {
+            this.gameObject.SetActive(false);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

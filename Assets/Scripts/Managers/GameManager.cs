@@ -99,6 +99,18 @@ public class GameManager : MonoBehaviour {
         {
             itemsToHide[i].SetActive(false);
         }
+
+        // HACK: CANCEL OTHER SUBTITLES
+        Object[] RunningSubtitles = GameObject.FindObjectsOfType<Subtitles>();
+        for (int i = 0; i< RunningSubtitles.Length; ++i)
+        {
+            Subtitles sub = (Subtitles)RunningSubtitles[i];
+            if (sub)
+            {
+                sub.CancelSubtitle();
+            }
+        }
+
         eFinishEvent.Invoke();
     }
 
