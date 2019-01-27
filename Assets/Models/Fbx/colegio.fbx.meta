@@ -1196,6 +1196,221 @@ ModelImporter:
     4300452: caja_plantas21
     4300454: arbol_31
     4300456: CASA_2_alturas5
+    6400000: arbol_16
+    6400002: arbol_17
+    6400004: arbol_18
+    6400006: arbol_19
+    6400008: arbol_20
+    6400010: arbol_21
+    6400012: arbol_22
+    6400014: arbol_23
+    6400016: arbol_24
+    6400018: arbol_25
+    6400020: arbol_26
+    6400022: arbol_27
+    6400024: arbol_28
+    6400026: arbol_29
+    6400028: arbol_30
+    6400030: arbol_31
+    6400032: banco_10
+    6400034: banco_12
+    6400036: banco_14
+    6400038: banco_2
+    6400040: banco_2 1
+    6400042: banco_3
+    6400044: banco_3 1
+    6400046: banco_4
+    6400048: banco_4 1
+    6400050: banco_5
+    6400052: banco_5 1
+    6400054: banco_6
+    6400056: banco_6 1
+    6400058: banco_7
+    6400060: banco_7 1
+    6400062: banco_8
+    6400064: banco_8 1
+    6400066: banco_9
+    6400068: caja_plantas11
+    6400070: caja_plantas12
+    6400072: caja_plantas13
+    6400074: caja_plantas14
+    6400076: caja_plantas15
+    6400078: caja_plantas16
+    6400080: caja_plantas17
+    6400082: caja_plantas18
+    6400084: caja_plantas19
+    6400086: caja_plantas20
+    6400088: caja_plantas21
+    6400090: campanario
+    6400092: CASA_2_alturas5
+    6400094: contrafuerte_13
+    6400096: contrafuerte_15
+    6400098: contrafuerte_16
+    6400100: contrafuerte_17
+    6400102: contrafuerte_18
+    6400104: contrafuerte_19
+    6400106: contrafuerte_20
+    6400108: contrafuerte_21
+    6400110: contrafuerte_22
+    6400112: contrafuerte_23
+    6400114: contrafuerte_24
+    6400116: contrafuerte_3
+    6400118: contrafuerte_4
+    6400120: contrafuerte_5
+    6400122: contrafuerte_6
+    6400124: contrafuerte_7
+    6400126: cruz
+    6400128: cruz1
+    6400130: escaleras_6
+    6400132: farola_10
+    6400134: farola_11
+    6400136: farola_12
+    6400138: farola_13
+    6400140: farola_14
+    6400142: farola_15
+    6400144: farola_16
+    6400146: farola_17
+    6400148: farola_18
+    6400150: farola_19
+    6400152: farola_20
+    6400154: farola_21
+    6400156: farola_22
+    6400158: farola_23
+    6400160: farola_24
+    6400162: farola_25
+    6400164: farola_26
+    6400166: farola_27
+    6400168: farola_3
+    6400170: farola_4
+    6400172: farola_5
+    6400174: farola_6
+    6400176: farola_7
+    6400178: farola_8
+    6400180: farola_9
+    6400182: iglesia
+    6400184: ladrillo_1
+    6400186: ladrillo_1 1
+    6400188: ladrillo_1 2
+    6400190: ladrillo_1 3
+    6400192: ladrillo_10
+    6400194: ladrillo_10 1
+    6400196: ladrillo_10 2
+    6400198: ladrillo_10 3
+    6400200: ladrillo_11
+    6400202: ladrillo_11 1
+    6400204: ladrillo_11 2
+    6400206: ladrillo_11 3
+    6400208: ladrillo_2
+    6400210: ladrillo_2 1
+    6400212: ladrillo_2 2
+    6400214: ladrillo_2 3
+    6400216: ladrillo_3
+    6400218: ladrillo_3 1
+    6400220: ladrillo_3 2
+    6400222: ladrillo_3 3
+    6400224: ladrillo_4
+    6400226: ladrillo_4 1
+    6400228: ladrillo_4 2
+    6400230: ladrillo_4 3
+    6400232: ladrillo_5
+    6400234: ladrillo_5 1
+    6400236: ladrillo_5 2
+    6400238: ladrillo_5 3
+    6400240: ladrillo_6
+    6400242: ladrillo_6 1
+    6400244: ladrillo_6 2
+    6400246: ladrillo_6 3
+    6400248: ladrillo_7
+    6400250: ladrillo_7 1
+    6400252: ladrillo_7 2
+    6400254: ladrillo_7 3
+    6400256: ladrillo_8
+    6400258: ladrillo_8 1
+    6400260: ladrillo_8 2
+    6400262: ladrillo_8 3
+    6400264: ladrillo_9
+    6400266: ladrillo_9 1
+    6400268: ladrillo_9 2
+    6400270: ladrillo_9 3
+    6400272: pSphere36
+    6400274: puerta_35
+    6400276: puerta_36
+    6400278: puerta_36 1
+    6400280: puerta_37
+    6400282: puerta_37 1
+    6400284: puerta_38
+    6400286: puerta_38 1
+    6400288: puerta_39
+    6400290: puerta_39 1
+    6400292: puerta_40
+    6400294: puerta_41
+    6400296: ventana_216
+    6400298: ventana_220
+    6400300: ventana_221
+    6400302: ventana_222
+    6400304: ventana_223
+    6400306: ventana_224
+    6400308: ventana_225
+    6400310: ventana_226
+    6400312: ventana_227
+    6400314: ventana_228
+    6400316: ventana_229
+    6400318: ventana_230
+    6400320: ventana_231
+    6400322: ventana_232
+    6400324: ventana_233
+    6400326: ventana_234
+    6400328: ventana_235
+    6400330: ventana_235 1
+    6400332: ventana_235 2
+    6400334: ventana_235 3
+    6400336: ventana_235 4
+    6400338: ventana_235 5
+    6400340: ventana_235 6
+    6400342: ventana_236
+    6400344: ventana_236 1
+    6400346: ventana_236 2
+    6400348: ventana_236 3
+    6400350: ventana_236 4
+    6400352: ventana_236 5
+    6400354: ventana_236 6
+    6400356: ventana_237
+    6400358: ventana_237 1
+    6400360: ventana_238
+    6400362: ventana_238 1
+    6400364: ventana_239
+    6400366: ventana_239 1
+    6400368: ventana_240
+    6400370: ventana_240 1
+    6400372: ventana_241
+    6400374: ventana_241 1
+    6400376: ventana_242
+    6400378: ventana_242 1
+    6400380: ventana_243
+    6400382: ventana_243 1
+    6400384: ventana_244
+    6400386: ventana_244 1
+    6400388: ventana_245
+    6400390: ventana_245 1
+    6400392: ventana_246
+    6400394: ventana_246 1
+    6400396: ventana_247
+    6400398: ventana_247 1
+    6400400: ventana_248
+    6400402: ventana_248 1
+    6400404: ventana_249
+    6400406: ventana_249 1
+    6400408: ventana_250
+    6400410: ventana_250 1
+    6400412: ventana_251
+    6400414: ventana_251 1
+    6400416: ventana_252
+    6400418: ventana_252 1
+    6400420: ventana_255
+    6400422: ventana_256
+    6400424: ventana_257
+    6400426: ventana_258
+    6400428: ventana_259
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -1229,7 +1444,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
