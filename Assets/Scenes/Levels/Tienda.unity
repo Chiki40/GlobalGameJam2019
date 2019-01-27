@@ -231,7 +231,7 @@ PrefabInstance:
     - target: {fileID: 6904175326418390511, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7208156
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
@@ -3168,6 +3168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
+      propertyPath: subtitles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
       propertyPath: subtitles.Array.data[0].sText
       value: I have this stuff
       objectReference: {fileID: 0}
@@ -3179,22 +3184,72 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 1_ES
+      value: 1_Intro_1
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sSoundNameES
-      value: 2_ES
+      value: 1_Intro_2
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Tengo esta movida
+      value: "La muerte de papa a\xFAn me atormenta en sue\xF1os."
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: Y no se pa que vale
+      value: No se si hice lo correcto marchandome
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 1_Intro_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 1_Intro_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sText
+      value: And I don't know its purpose
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sTextES
+      value: "pero nunca se me dio tan bien como a \xE9l hacer pan."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sSoundName
+      value: 1_Intro_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sSoundNameES
+      value: 1_Intro_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sText
+      value: And I don't know its purpose
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sTextES
+      value: El negocio no hubiera funcionado
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sSoundName
+      value: 1_Intro_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sSoundNameES
+      value: 1_Intro_4
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -3975,7 +4030,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -3985,7 +4040,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sText
-      value: Pista currada
+      value: Shitty clue
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -4000,12 +4055,27 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 1_ES
+      value: 1_p1_1
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Pista de mierda
+      value: No recuerdo ninguna de estas tiendas, deben de ser nueva
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sTextES
+      value: "la panaderia de papa deber\xEDa estar cerca"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundNameES
+      value: 1_p1_2
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -9737,33 +9807,88 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
+      propertyPath: subtitles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
       propertyPath: subtitles.Array.data[1].sSoundNameES
-      value: 2_ES
+      value: 1_fin_2
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 1_ES
+      value: 1_fin_1
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Me acuerdo de que tenia un gato
+      value: "La panader\xEDa de pap\xE1 siempre tubo mucho \xE9xito en el pueblo"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: I remember I had a cat
+      value: "La panader\xEDa de pap\xE1 siempre tubo mucho \xE9xito en el pueblo"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: Y lo mate
+      value: "todas las ma\xF1ana, el olor a pan reci\xE9n echo, inundaba las calles"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sText
-      value: And I killed it
+      value: "todas las ma\xF1ana, el olor a pan reci\xE9n echo, inundaba las calles"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sText
+      value: "pero pap\xE1 nunca puso mucho interes en ense\xF1arme la profesi\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sTextES
+      value: "pero pap\xE1 nunca puso mucho interes en ense\xF1arme la profesi\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sSoundName
+      value: 1_fin_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sSoundNameES
+      value: 1_fin_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sText
+      value: "quiz\xE1s esperaba que encontrara un trabajo mejor"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sTextES
+      value: "quiz\xE1s esperaba que encontrara un trabajo mejor"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sSoundName
+      value: 1_fin_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[3].sSoundNameES
+      value: 1_fin_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 1_fin_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 1_fin_2
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -12379,7 +12504,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: Spoiler, honestly
+      value: Recuerdo que habia algo singular delante de la tienda
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -12399,17 +12524,17 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundName
-      value: 3
+      value: 1_p3
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 3_ES
+      value: 1_p3
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Spoiler, basicamente
+      value: Recuerdo que habia algo singular delante de la tienda
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -13705,17 +13830,17 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundName
-      value: 2
+      value: 1_p2
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 2_ES
+      value: 1_p2
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Pista currada
+      value: "\xBFQu\xE9 es lo que no ha cambiado desde que la panader\xEDa cerro?"
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
