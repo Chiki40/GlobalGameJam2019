@@ -16,7 +16,7 @@ public class Clock : MonoBehaviour
     void Update()
     {
         DateTime time = DateTime.Now;
-        Debug.Log(time.Hour + " " + time.Minute);
+        //Debug.Log(time.Hour + " " + time.Minute);
         float hourLoopCompletionRate = (float)(time.Hour % 12) / 12.0f;
         float minuteLoopCompletionRate = (float)(time.Minute) / 60.0f;
         Vector3 rotation = clockHours.transform.localEulerAngles;
