@@ -36,6 +36,7 @@ public class SecretDoor : MonoBehaviour
     public void OpenDoor(bool open)
     {
         m_bOpened = open;
+        transform.Find("QueNoPases").GetComponent<Collider>().enabled = !m_bOpened;
     }
 
     private void OnTriggerEnter(Collider other)

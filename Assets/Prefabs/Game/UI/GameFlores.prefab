@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 4640073240222662192}
   m_Layer: 5
   m_Name: Clue
-  m_TagString: Untagged
+  m_TagString: UIToHideInCinematics
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 2700944725485682907}
   m_Layer: 5
   m_Name: Info
-  m_TagString: Untagged
+  m_TagString: UIToHideInCinematics
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
