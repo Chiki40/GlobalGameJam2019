@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Tienda.unity
     guid: 10f592b34b49fdc4187580ae3f2340bc
   - enabled: 1
-    path: Assets/Scenes/Levels/Ayuntamiento.unity
-    guid: 3f677797c6b09bc47915464aa6667e96
-  - enabled: 1
     path: Assets/Scenes/Levels/Colegio.unity
     guid: c701ab818171abd4a950813a237e0faf
+  - enabled: 1
+    path: Assets/Scenes/Levels/Ayuntamiento.unity
+    guid: 3f677797c6b09bc47915464aa6667e96
   - enabled: 1
     path: Assets/Scenes/Levels/Parque.unity
     guid: 693e1d5a0ab3c61469bc13746b203338
