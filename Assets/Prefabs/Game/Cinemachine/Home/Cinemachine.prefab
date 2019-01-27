@@ -573,7 +573,18 @@ MonoBehaviour:
   director: {fileID: 0}
   onFinished:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: Credits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!95 &8393574644929176389
@@ -1222,10 +1233,6 @@ PrefabInstance:
     - target: {fileID: 100006, guid: f16578d4d910ddc42a412df81af39989, type: 3}
       propertyPath: m_Name
       value: gato
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: f16578d4d910ddc42a412df81af39989, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: f16578d4d910ddc42a412df81af39989, type: 3}
       propertyPath: m_LocalPosition.x
