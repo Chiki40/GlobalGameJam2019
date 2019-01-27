@@ -30,4 +30,14 @@ public class LocalizationUtils
             }
         }
     }
+
+    public static void UpdateHandMaterial(MaterialLocalization materialLocalization)
+    {
+        int iLanguage = PlayerPrefs.GetInt("Language");
+        Renderer renderer = materialLocalization.gameObject.GetComponent<Renderer>();
+        if(renderer)
+        {
+            renderer.material = (iLanguage == 0 ? materialLocalization.MaterialEnglish : materialLocalization.MaterialSpanish);
+        }
+    }
 }

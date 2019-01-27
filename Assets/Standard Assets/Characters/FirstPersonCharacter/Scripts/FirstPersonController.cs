@@ -64,6 +64,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_fCurrentPhotoInterpolationTime = 0.0f;
         }
 
+        void OnDisable()
+        {
+            transform.GetChild(0).Find("Hand").localPosition = m_vPhotoHiddenPos;
+        }
+
 
         // Update is called once per frame
         private void Update()
