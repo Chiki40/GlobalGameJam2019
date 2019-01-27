@@ -52,46 +52,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sSoundNameES
-      value: 2_fin_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 2_fin_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sTextES
-      value: "Aunque fue triste saber que nunca volver\xEDa a ver a mis amigos"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sText
-      value: "Aunque fue triste saber que nunca volver\xEDa a ver a mis amigos"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sTextES
-      value: no fue de las despedidas mas duras
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sText
-      value: no fue de las despedidas mas duras
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundName
-      value: 2_fin_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sSoundName
-      value: 2_fin_2
-      objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -202,6 +162,46 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundNameES
+      value: 2_fin_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundNameES
+      value: 2_fin_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sTextES
+      value: "Aunque fue triste saber que nunca volver\xEDa a ver a mis amigos"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sText
+      value: Even though knowing I would't see my friends again was sad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sTextES
+      value: no fue de las despedidas mas duras
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sText
+      value: It wasn't one of the hardest
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 2_fin_1EN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 2_fin_2EN
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
 --- !u!224 &6323544165343485159 stripped
@@ -226,46 +226,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sText
-      value: "Mas de una vez nos sorprendi\xF3 la noche en ese banco"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sText
-      value: Pista currada
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[2].sText
-      value: Spoiler, directamente
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[2].sSoundName
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundName
-      value: 2_p3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 2_p3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sTextES
-      value: "Mas de una vez nos sorprendi\xF3 la noche en ese banco"
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -392,6 +352,46 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sText
+      value: More than once, the night supreised us sitther in the bench
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sText
+      value: Pista currada
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sText
+      value: Spoiler, directamente
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sSoundName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 2_p3EN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundNameES
+      value: 2_p3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sTextES
+      value: "Mas de una vez nos sorprendi\xF3 la noche en ese banco"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
 --- !u!224 &6323544165386694390 stripped
@@ -416,61 +416,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sText
-      value: Siempre nos gustaba sentarnos
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sText
-      value: porque las conversaciones normalmene se alargaban.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[2].sText
-      value: Spoiler, directamente
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[2].sSoundName
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundName
-      value: 2_p2_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 2_p2_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sTextES
-      value: Siempre nos gustaba sentarnos
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sTextES
-      value: porque las conversaciones normalmene se alargaban.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sSoundNameES
-      value: 2_p2_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sSoundName
-      value: 2_p2_2
       objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -582,6 +527,61 @@ PrefabInstance:
       propertyPath: m_Text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sText
+      value: We loved sitting outside
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sText
+      value: because the conversation were endless
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sText
+      value: Spoiler, directamente
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[2].sSoundName
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 2_p2_1EN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundNameES
+      value: 2_p2_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sTextES
+      value: Siempre nos gustaba sentarnos
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sTextES
+      value: porque las conversaciones normalmene se alargaban.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundNameES
+      value: 2_p2_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 2_p2_2EN
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
 --- !u!224 &6323544166239524732 stripped
@@ -607,6 +607,116 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826445, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.size
@@ -615,7 +725,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: "Saliamos siempre los primero y ve\xEDamos salir a los dem\xE1s del colegio"
+      value: We were always getting out of class first and we saw everyone else leaving
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -645,117 +755,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundName
-      value: 2_p1
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826445, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: m_Text
-      value: 
+      value: 2_p1EN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
@@ -782,46 +782,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sText
-      value: 'Siempre estabamos deseando salir del colegio '
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sText
-      value: "para hablar de nuestros inocentes sue\xF1os infantiles"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundNameES
-      value: 2_Intro_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sSoundNameES
-      value: 2_Intro_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sTextES
-      value: 'Siempre estabamos deseando salir del colegio '
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sTextES
-      value: "para hablar de nuestros inocentes sue\xF1os infantiles"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[0].sSoundName
-      value: 2_Intro_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
-        type: 3}
-      propertyPath: subtitles.Array.data[1].sSoundName
-      value: 2_Intro_2
-      objectReference: {fileID: 0}
     - target: {fileID: 292487526824513208, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -931,6 +891,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sText
+      value: We were always wishing that the school ends faster
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sText
+      value: just so we could talk about aour innocent childhood dreams
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundNameES
+      value: 2_Intro_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundNameES
+      value: 2_Intro_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sTextES
+      value: 'Siempre estabamos deseando salir del colegio '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sTextES
+      value: "para hablar de nuestros inocentes sue\xF1os infantiles"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[0].sSoundName
+      value: 2_Intro_1EN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
+      propertyPath: subtitles.Array.data[1].sSoundName
+      value: 2_Intro_2EN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
