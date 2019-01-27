@@ -89,7 +89,6 @@ public class GameManager : MonoBehaviour {
 
     public void ObjectEventCompleted()
     {
-        Debug.Log("ObjectEventCompleted");
         m_bLevelCompleted = true;
         m_bCluesDisabled = true; // Level completed, stop automatic clues
         eFinishEvent.Invoke();

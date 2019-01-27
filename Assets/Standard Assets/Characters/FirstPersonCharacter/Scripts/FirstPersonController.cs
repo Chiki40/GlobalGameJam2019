@@ -86,7 +86,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 if (CrossPlatformInputManager.GetButtonDown("Jump")) // Show/Hide photo
                 {
                     m_bPhotoVisible = !m_bPhotoVisible;
-                    Debug.Log(m_bPhotoVisible);
                 }
 
                 if (m_bPhotoVisible)
