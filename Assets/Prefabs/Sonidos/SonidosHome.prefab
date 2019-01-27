@@ -182,12 +182,12 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Ha pasado ya mas de media vida
+      value: "Ha pasado ya m\xE1s de media vida"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: "y despu\xE9s de todo, nunca olvidare mi hogar"
+      value: "y despu\xE9s de todo, nunca olvidar\xE9 mi hogar"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}

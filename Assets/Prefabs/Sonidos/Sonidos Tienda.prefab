@@ -170,7 +170,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: Dad's dead it's still hunting my sleep
+      value: Dad's death is still haunting me while I sleep
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -190,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: "La muerte de papa a\xFAn me atormenta en sue\xF1os."
+      value: "La muerte de pap\xE1 a\xFAn me atormenta en sue\xF1os."
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -230,7 +230,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[3].sText
-      value: the busines wouldn't end well
+      value: the busines wouldn't have ended up well
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -415,12 +415,12 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: No recuerdo ninguna de estas tiendas, deben de ser nueva
+      value: No recuerdo ninguna de estas tiendas, deben de ser nuevas
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: "la panaderia de papa deber\xEDa estar cerca"
+      value: "La panader\xEDa de pap\xE1 deber\xEDa estar cerca"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -600,7 +600,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: "todas las ma\xF1ana, el olor a pan reci\xE9n echo, inundaba las calles"
+      value: "todas las ma\xF1ana, el olor a pan reci\xE9n hecho, inundaba las calles"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -635,7 +635,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[3].sTextES
-      value: "quiz\xE1s esperaba que encontrara un trabajo mejor"
+      value: "Quiz\xE1s esperaba que encontrara un trabajo mejor"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -800,7 +800,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: What would habe stayed the same
+      value: What could have stayed the same since the bakery closed?
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -975,7 +975,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: I remember something specil in front of the store
+      value: I remember something special in front of the store
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -1005,7 +1005,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Recuerdo que habia algo singular delante de la tienda
+      value: "Recuerdo que hab\xEDa algo singular delante de la tienda"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}

@@ -540,7 +540,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: El primer amor es el mas especial. Y el que nunca se olvida
+      value: "El primer amor es el m\xE1s especial. Y el que nunca se olvida"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -700,7 +700,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Aunque los dos sabiamos que era el fin
+      value: "Aunque los dos sab\xEDamos que era el fin"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}

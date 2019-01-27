@@ -180,17 +180,17 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: "No pude despedirme de el cuando me march\xE9"
+      value: "No pude despedirme de ella cuando me march\xE9"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: I couldn't say goodbye when to her when I left
+      value: I couldn't say goodbye to her when I left
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: "Lo busque por todo el pueblo, pero no apareci\xF3"
+      value: "La busqu\xE9 por todo el pueblo, pero no apareci\xF3"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -205,7 +205,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[2].sTextES
-      value: fue como si supiera que lo iba a abandonar
+      value: Fue como si supiera que la iba a abandonar
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -415,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: Creo que aun recuerdo el sitio donde encontramos a Chelsea
+      value: "Creo que a\xFAn recuerdo el sitio donde encontramos a Chelsea"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -565,7 +565,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: If I closemy eyes, I can even hear Chelsea's meowing
+      value: If I close my eyes, I can even hear Chelsea's meowing
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -736,7 +736,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sText
-      value: When we rescued Chelsea from the strees, he was freezing
+      value: When we rescued Chelsea from the strees, she was freezing
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -761,7 +761,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: "estuvo dos d\xEDas sin comer"
+      value: "Estuvo dos d\xEDas sin comer"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}

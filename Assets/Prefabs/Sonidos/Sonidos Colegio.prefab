@@ -185,12 +185,12 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sTextES
-      value: no fue de las despedidas mas duras
+      value: "no fue de las despedidas m\xE1s duras"
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sText
-      value: It wasn't one of the hardest
+      value: it wasn't one of the hardest farewells
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -390,7 +390,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: "Mas de una vez nos sorprendi\xF3 la noche en ese banco"
+      value: "M\xE1s de una vez nos sorprendi\xF3 la noche en ese banco"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}
@@ -900,7 +900,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sText
-      value: just so we could talk about aour innocent childhood dreams
+      value: just so we could talk about our innocent childhood dreams
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
@@ -915,7 +915,7 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sTextES
-      value: 'Siempre estabamos deseando salir del colegio '
+      value: "Siempre est\xE1bamos deseando salir del colegio "
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
