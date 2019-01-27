@@ -35,11 +35,6 @@ public class GameManager : MonoBehaviour {
         {
             LocalizationUtils.UpdateHandMaterial(materialLocalization);
         }
-        if (CluesInfo.Length <= 0)
-        {
-            Debug.LogError("[GameManager.Start] ERROR. This scene does not have CluesInfo set");
-            return;
-        }
         StartCoroutine(DelayedStart());
     }
 
@@ -68,15 +63,18 @@ public class GameManager : MonoBehaviour {
 
         if (!m_bCluesDisabled)
         {
-            m_fCurrentTimeBetweenClues = Mathf.Min(m_fCurrentTimeBetweenClues + Time.deltaTime, CluesInfo[m_uCurrentClue].fTimeToGiveClue);
-            if (m_fCurrentTimeBetweenClues >= CluesInfo[m_uCurrentClue].fTimeToGiveClue)
+            if (CluesInfo.Length > 0)
             {
-                ShowClue(m_uCurrentClue);
-                m_fCurrentTimeBetweenClues = 0.0f;
-                ++m_uCurrentClue;
-                if (m_uCurrentClue >= CluesInfo.Length)
+                m_fCurrentTimeBetweenClues = Mathf.Min(m_fCurrentTimeBetweenClues + Time.deltaTime, CluesInfo[m_uCurrentClue].fTimeToGiveClue);
+                if ( m_fCurrentTimeBetweenClues >= CluesInfo[m_uCurrentClue].fTimeToGiveClue)
                 {
-                    m_bCluesDisabled = true; // All clues given, stop clues
+                    ShowClue(m_uCurrentClue);
+                    m_fCurrentTimeBetweenClues = 0.0f;
+                    ++m_uCurrentClue;
+                    if (m_uCurrentClue >= CluesInfo.Length)
+                    {
+                        m_bCluesDisabled = true; // All clues given, stop clues
+                    }
                 }
             }
         }
@@ -89,7 +87,6 @@ public class GameManager : MonoBehaviour {
 
     public void ObjectEventCompleted()
     {
-        Debug.Log("ObjectEventCompleted");
         m_bLevelCompleted = true;
         m_bCluesDisabled = true; // Level completed, stop automatic clues
         eFinishEvent.Invoke();
