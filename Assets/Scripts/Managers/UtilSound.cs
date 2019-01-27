@@ -48,7 +48,7 @@ public class UtilSound : MonoBehaviour
         }
     }
 
-    public void PlaySound(string name, float volume = 1.0f, bool loop = false, bool useFamilySounds = false, bool fadeIn = false, float timeFade = 0.5f)
+    public void PlaySound(string name, float volume = 1.0f, bool loop = false, bool useFamilySounds = false, bool fadeIn = false, float timeFade = 0.5f, bool bIs3D = false, GameObject o3DSoundObject = null, float f3DSoundRadius = 0.0f)
     {
         string path = DEFAULT_SOUNDS_PATH + name;
         //AudioClip clip = Resources.Load<AudioClip>(path); // Load sound from disk
@@ -89,12 +89,23 @@ public class UtilSound : MonoBehaviour
         }
         GameObject newObject = new GameObject(); // New scene object
         AudioSource newSource = newObject.AddComponent<AudioSource>(); // Create a new AudioSouce and set it to the new object
-        newObject.transform.parent = gameObject.transform; // UtilSound is the parent of the new object
         newObject.name = name; // Assign the given clip name
         newSource.clip = clip; // Assign clip to new AudioSource
         newSource.volume = volume;
         newSource.loop = loop; // Assign given loop property
         newSource.Play(); // Play the sound
+        if (bIs3D)
+        {
+            newSource.spatialBlend = 1.0f;
+            newSource.maxDistance = f3DSoundRadius;
+            newObject.transform.parent = o3DSoundObject.transform; // Given object is the parent of the new object (3D sound)
+            newObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+        }
+        else
+        {
+            newSource.spatialBlend = 0.0f;
+            newObject.transform.parent = gameObject.transform; // UtilSound is the parent of the new object
+        }
 
         if(fadeIn)
         {
