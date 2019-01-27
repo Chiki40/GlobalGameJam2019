@@ -224,13 +224,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4605263394606914506}
-  m_LocalRotation: {x: -0, y: -0.7608187, z: -0, w: -0.64896446}
-  m_LocalPosition: {x: -2.4, y: 0.5, z: 3.1}
-  m_LocalScale: {x: 9.8149605, y: 7.022725, z: 7.022725}
+  m_LocalRotation: {x: -0.32399502, y: -0.66128576, z: 0.30526516, w: -0.6037728}
+  m_LocalPosition: {x: -2.89, y: -0.3, z: 3.13}
+  m_LocalScale: {x: 8.325049, y: 5.9566755, z: 5.9566755}
   m_Children: []
   m_Father: {fileID: 114529000307001718}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 459.073, z: 0}
+  m_LocalEulerAnglesHint: {x: 52.653004, y: 458.011, z: 5.6650004}
 --- !u!33 &1654304503994578417
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -443,7 +443,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8026129262411610901}
-  m_LocalRotation: {x: 0.0048663495, y: 0.4989045, z: -0.002801448, w: 0.86663884}
+  m_LocalRotation: {x: 0.060068443, y: 0.52129436, z: -0.036819145, w: 0.85046357}
   m_LocalPosition: {x: -6.2, y: 0.4, z: -3.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -513,13 +513,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8585341087357808448}
-  m_LocalRotation: {x: -0, y: -0.46947137, z: 0, w: -0.88294774}
-  m_LocalPosition: {x: -1.9, y: 1.26, z: 2.34}
+  m_LocalRotation: {x: -0, y: -0.6086726, z: -0, w: -0.7934215}
+  m_LocalPosition: {x: -1.96, y: 0.19, z: 2.42}
   m_LocalScale: {x: 5.6236186, y: 4.023767, z: 4.023768}
   m_Children: []
   m_Father: {fileID: 114529000307001718}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 416.115, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 434.987, z: 0}
 --- !u!33 &8525583172515084316
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -643,10 +643,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ccf9636d5f21e345ac56b57ab41fb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  director: {fileID: 0}
+  director: {fileID: 8319366721827825069}
   onFinished:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: nextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!95 &2462634565754518898
