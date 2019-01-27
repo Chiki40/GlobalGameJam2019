@@ -7,6 +7,7 @@ TagManager:
   - DetectableObject
   - GameFlores
   - GameManager
+  - SecretDoor
   layers:
   - Default
   - TransparentFX
