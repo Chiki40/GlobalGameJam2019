@@ -336,6 +336,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
+      propertyPath: subtitles.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
+        type: 3}
       propertyPath: subtitles.Array.data[1].sSoundNameES
       value: 2_ES
       objectReference: {fileID: 0}

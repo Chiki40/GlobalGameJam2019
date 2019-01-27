@@ -766,12 +766,12 @@ PrefabInstance:
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[0].sSoundName
-      value: 3_Intro_1EN
+      value: 3_intro_1EN
       objectReference: {fileID: 0}
     - target: {fileID: 1130456540952826442, guid: a767ab7761e57e34fb9a65d69fd1e7c1,
         type: 3}
       propertyPath: subtitles.Array.data[1].sSoundName
-      value: 3_Intro_2EN
+      value: 3_intro_2EN
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a767ab7761e57e34fb9a65d69fd1e7c1, type: 3}

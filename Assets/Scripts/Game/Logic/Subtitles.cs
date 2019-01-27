@@ -36,7 +36,7 @@ public class Subtitles : MonoBehaviour
 
     public void PlaySubtitles()
     {
-        if (!m_bPlaying)
+        if (!m_bPlaying && subtitles.Length > 0)
         {
             m_uCurrentSubtitleNum = 0u;
             m_fCurrentTimeout = 0.0f;
@@ -53,7 +53,7 @@ public class Subtitles : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (m_bPlaying)
+        if (m_bPlaying && subtitles.Length > 0)
         {
             int iLanguage = PlayerPrefs.GetInt("Language");
             float fTimeOut = UtilSound.instance.GetClipLength(iLanguage == 0 ? subtitles[m_uCurrentSubtitleNum].sSoundName : subtitles[m_uCurrentSubtitleNum].sSoundNameES);
