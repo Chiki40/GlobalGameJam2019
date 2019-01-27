@@ -14890,12 +14890,12 @@ PrefabInstance:
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_WalkSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_RunSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}

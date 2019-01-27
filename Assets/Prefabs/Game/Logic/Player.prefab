@@ -378,7 +378,7 @@ MonoBehaviour:
     MaximumX: 60
     smooth: 0
     smoothTime: 1
-    lockCursor: 0
+    lockCursor: 1
   m_UseFovKick: 0
   m_FovKick:
     Camera: {fileID: 0}
