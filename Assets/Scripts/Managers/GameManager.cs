@@ -56,9 +56,13 @@ public class GameManager : MonoBehaviour {
             Restart();
         }
 
-        if (Input.GetButtonDown("Jump") && m_bCluesDisabled && !m_bLevelCompleted) // Only manual clues are accepted if clues are disabled but level is not completed (which means every clue was received)
+        //Input.GetKeyDown(KeyCode.LeftAlt)
+        if (Input.GetButtonDown("Alt") && !m_bLevelCompleted) // Only manual clues are accepted if clues are disabled but level is not completed (which means every clue was received)
         {
-            ShowClue((uint)CluesInfo.Length - 1u);
+            if(m_uCurrentClue> 0)
+            {
+                ShowClue(m_uCurrentClue - 1u);
+            }
         }
 
         if (!m_bCluesDisabled)
