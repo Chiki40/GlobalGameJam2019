@@ -16,6 +16,10 @@ public class SecretDoor : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetButtonDown("Jump"))
+        {
+            OpenDoor(!m_bOpened);
+        }
         float fAngle = transform.localEulerAngles.y;
         float fNewAngle = fAngle;
         if (m_bOpened)
@@ -32,5 +36,16 @@ public class SecretDoor : MonoBehaviour
     public void OpenDoor(bool open)
     {
         m_bOpened = open;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        GameObject triggerParentObject = other.transform.gameObject;
+        Debug.Log(triggerParentObject.name);
+        if (triggerParentObject.tag == "Player") // Player entered the trigger
+        {
+            transform.Find("SubtitlesSecret").Find("SubtitleComp").gameObject.GetComponent<Subtitles>().PlaySubtitles();
+            GetComponent<Collider>().enabled = false;
+        }
     }
 }
