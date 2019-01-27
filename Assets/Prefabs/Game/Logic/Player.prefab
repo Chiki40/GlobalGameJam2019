@@ -50,7 +50,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 37a4f968dff557e48954fd13f3238a11, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -354,11 +354,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5204714598584867563}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_bPhotoAllowed: 1
   m_vPhotoHiddenPos: {x: 0.38, y: -0.45, z: 0.53}
   m_vPhotoShowedPos: {x: 0.11, y: -0.19, z: 0.53}
   m_fPhotoInterpolationTime: 0.5
@@ -370,15 +371,15 @@ MonoBehaviour:
   m_StickToGroundForce: 10
   m_GravityMultiplier: 2
   m_MouseLook:
-    XSensitivity: 2
-    YSensitivity: 2
+    XSensitivity: 5
+    YSensitivity: 5
     clampVerticalRotation: 1
-    MinimumX: -90
-    MaximumX: 90
-    smooth: 1
-    smoothTime: 5
+    MinimumX: -60
+    MaximumX: 60
+    smooth: 0
+    smoothTime: 1
     lockCursor: 0
-  m_UseFovKick: 1
+  m_UseFovKick: 0
   m_FovKick:
     Camera: {fileID: 0}
     originalFov: 0
