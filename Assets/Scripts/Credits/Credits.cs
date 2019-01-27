@@ -19,6 +19,8 @@ public class Credits : MonoBehaviour
 
     void Start()
     {
+        UnityStandardAssets.Characters.FirstPerson.MouseLook mouseLook = new UnityStandardAssets.Characters.FirstPerson.MouseLook();
+        mouseLook.SetCursorLock(false);
         LocalizationUtils.UpdateLanguage();
         LocalizationUtils.UpdateImages();
     }
