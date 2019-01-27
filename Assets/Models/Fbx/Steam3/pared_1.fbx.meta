@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: c66d942d9323bb540a1e018e5cfc6909
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: base1
+    100002: //RootNode
+    100004: tuberia_1
+    100006: tuberia_2
+    100008: tuberia_3
+    100010: tuberia_4
+    100012: tuberia_5
+    100014: tuberia_6
+    100016: "tuberia_conexi\xF3n_1"
+    100018: "tuberia_conexi\xF3n_10"
+    100020: "tuberia_conexi\xF3n_11"
+    100022: "tuberia_conexi\xF3n_2"
+    100024: "tuberia_conexi\xF3n_3"
+    100026: "tuberia_conexi\xF3n_4"
+    100028: "tuberia_conexi\xF3n_5"
+    100030: "tuberia_conexi\xF3n_6"
+    100032: "tuberia_conexi\xF3n_7"
+    100034: "tuberia_conexi\xF3n_8"
+    100036: "tuberia_conexi\xF3n_9"
+    100038: "tuber\xEDas"
+    100040: zocalo
+    400000: base1
+    400002: //RootNode
+    400004: tuberia_1
+    400006: tuberia_2
+    400008: tuberia_3
+    400010: tuberia_4
+    400012: tuberia_5
+    400014: tuberia_6
+    400016: "tuberia_conexi\xF3n_1"
+    400018: "tuberia_conexi\xF3n_10"
+    400020: "tuberia_conexi\xF3n_11"
+    400022: "tuberia_conexi\xF3n_2"
+    400024: "tuberia_conexi\xF3n_3"
+    400026: "tuberia_conexi\xF3n_4"
+    400028: "tuberia_conexi\xF3n_5"
+    400030: "tuberia_conexi\xF3n_6"
+    400032: "tuberia_conexi\xF3n_7"
+    400034: "tuberia_conexi\xF3n_8"
+    400036: "tuberia_conexi\xF3n_9"
+    400038: "tuber\xEDas"
+    400040: zocalo
+    2100000: lambert4
+    2100002: lambert3
+    2100004: lambert6
+    2100006: lambert5
+    2300000: base1
+    2300002: tuberia_1
+    2300004: tuberia_2
+    2300006: tuberia_3
+    2300008: tuberia_4
+    2300010: tuberia_5
+    2300012: tuberia_6
+    2300014: "tuberia_conexi\xF3n_1"
+    2300016: "tuberia_conexi\xF3n_10"
+    2300018: "tuberia_conexi\xF3n_11"
+    2300020: "tuberia_conexi\xF3n_2"
+    2300022: "tuberia_conexi\xF3n_3"
+    2300024: "tuberia_conexi\xF3n_4"
+    2300026: "tuberia_conexi\xF3n_5"
+    2300028: "tuberia_conexi\xF3n_6"
+    2300030: "tuberia_conexi\xF3n_7"
+    2300032: "tuberia_conexi\xF3n_8"
+    2300034: "tuberia_conexi\xF3n_9"
+    2300036: zocalo
+    3300000: base1
+    3300002: tuberia_1
+    3300004: tuberia_2
+    3300006: tuberia_3
+    3300008: tuberia_4
+    3300010: tuberia_5
+    3300012: tuberia_6
+    3300014: "tuberia_conexi\xF3n_1"
+    3300016: "tuberia_conexi\xF3n_10"
+    3300018: "tuberia_conexi\xF3n_11"
+    3300020: "tuberia_conexi\xF3n_2"
+    3300022: "tuberia_conexi\xF3n_3"
+    3300024: "tuberia_conexi\xF3n_4"
+    3300026: "tuberia_conexi\xF3n_5"
+    3300028: "tuberia_conexi\xF3n_6"
+    3300030: "tuberia_conexi\xF3n_7"
+    3300032: "tuberia_conexi\xF3n_8"
+    3300034: "tuberia_conexi\xF3n_9"
+    3300036: zocalo
+    4300000: base1
+    4300002: zocalo
+    4300004: tuberia_1
+    4300006: tuberia_2
+    4300008: tuberia_3
+    4300010: tuberia_4
+    4300012: tuberia_5
+    4300014: tuberia_6
+    4300016: "tuberia_conexi\xF3n_1"
+    4300018: "tuberia_conexi\xF3n_2"
+    4300020: "tuberia_conexi\xF3n_3"
+    4300022: "tuberia_conexi\xF3n_4"
+    4300024: "tuberia_conexi\xF3n_5"
+    4300026: "tuberia_conexi\xF3n_6"
+    4300028: "tuberia_conexi\xF3n_7"
+    4300030: "tuberia_conexi\xF3n_8"
+    4300032: "tuberia_conexi\xF3n_9"
+    4300034: "tuberia_conexi\xF3n_10"
+    4300036: "tuberia_conexi\xF3n_11"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
