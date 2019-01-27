@@ -10222,6 +10222,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: far clip plane
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 834286386092101505, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: eFinishEvent.m_PersistentCalls.m_Calls.Array.size
@@ -10410,35 +10420,15 @@ PrefabInstance:
       propertyPath: CluesInfo.Array.data[0].eClueEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    - target: {fileID: 1779396573032043561, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7651234247197504553, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: near clip plane
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1911946482029729435, guid: 55489ee7893b23b4891a512ced2612d0,
-        type: 3}
-      propertyPath: far clip plane
-      value: 5000
-      objectReference: {fileID: 0}
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_WalkSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_RunSpeed
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6511655284953300796, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
@@ -10450,10 +10440,20 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1779396573032043561, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6723468261713875000, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
       propertyPath: m_Icon
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651234247197504553, guid: 55489ee7893b23b4891a512ced2612d0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1228332676910737879, guid: 55489ee7893b23b4891a512ced2612d0,
         type: 3}
