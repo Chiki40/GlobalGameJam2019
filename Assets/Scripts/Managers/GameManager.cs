@@ -14,9 +14,9 @@ public class GameManager : MonoBehaviour {
 
     public ClueInfo[]CluesInfo;
 
-    public float m_fStartDelay = 0.5f;
     public UnityEvent eFinishEvent = null;
     public UnityEvent eStartEvent = null;
+    public float m_fStartDelay = 0.5f;
     private bool m_bCluesDisabled = false;
     private bool m_bLevelCompleted = false;
     private float m_fCurrentTimeBetweenClues;
